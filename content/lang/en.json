@@ -1,4 +1,5 @@
 {
+  "_language_name": "English",
   "chat_title": "🗨️ Chat with {name}",
   "audio_replay_label": "🔁 Replay Previous Replies",
   "play_button": "▶️ Play",
@@ -58,4 +59,5 @@
   "gemini_option": "Google Gemini",
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech Service"
+
 }
