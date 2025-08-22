@@ -13,8 +13,10 @@
     "de.json": {
       "version": 1,
       "description": "German language strings"
+    },
+    "zh.json": {
+      "version": 1,
+      "description": "Chinese language strings"
     }
   }
-
 }
-
