@@ -24,7 +24,7 @@
   "api_type_tts": "TTS",
   "select_llm_model": "LLMモデルを選択",
   "select_tts_service": "TTSサービスを選択",
-  "api_key_warning": "⚠ 下にスクロールして、ペジ下部の🔐マークから{service} APIキーを設定してください",
+  "api_key_warning": "⚠ 下にスクロールして、ページ下部の🔐マークから{service} APIキーを設定してください",
   "gemini_input_label": "Google Gemini APIキー",
   "gemini_input_placeholder": "AIzaで始まるAPIキーを入力してください",
   "gemini_explanation": "※ このプログラムでGoogleのGeminiサービスを利用するには、Google Gemini APIキーが必要です。すべての処理はローカルで行われ、APIキーはどこにも保存されません。<br>**重要：** Google AI Studioで作成後、APIキーは一度しか表示されないため、安全な場所に必ず保存してください。",
@@ -60,3 +60,4 @@
   "tts_service_label": "TTSサービス"
 
 }
+
