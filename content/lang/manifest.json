@@ -9,8 +9,11 @@
     "ja.json": {
       "version": 1,
       "description": "Japanese language strings"
+    },
+    "de.json": {
+      "version": 1,
+      "description": "German language strings"
     }
   }
 
 }
-
