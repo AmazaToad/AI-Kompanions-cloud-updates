@@ -1,4 +1,5 @@
 {
+  "_language_name": "中文",
   "chat_title": "🗨️ 与 {name} 聊天",
   "audio_replay_label": "🔁 重播先前的回复",
   "play_button": "▶️ 播放",
@@ -58,4 +59,5 @@
   "gemini_option": "Google Gemini",
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "文本转语音服务"
+
 }
