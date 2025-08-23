@@ -1,5 +1,5 @@
 {
-  "version": 1.1,
+  "version": 1.2,
   "characters": [
         {
           "ID": "AIko",
@@ -78,7 +78,7 @@
           },
           "ERROR_CONVEY_MESSAGE": "あれ？ちょっとズレちゃったみたい。もう一回トライしてみよっか！",
           "VOICE_CREDITS": {
-            "SBV2": "Style-BertVITS2モデル: （ここに利用する男性モデル名を入れる）"
+            "SBV2": "Style-BertVITS2モデル: jvnv-M1-jp（提供元: あみたろの声素材工房 https://amitaro.net/）"
           }
         }
   ]
