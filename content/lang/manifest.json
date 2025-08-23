@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1.1",
   "last_updated": "2025-08-22T10:00:00Z",
   "files": {
     "en.json": {
@@ -7,7 +7,7 @@
       "description": "English language strings"
     },
     "ja.json": {
-      "version": 1.0,
+      "version": 1.0.1,
       "description": "Japanese language strings"
     },
     "de.json": {
@@ -16,3 +16,4 @@
     }
   }
 }
+
