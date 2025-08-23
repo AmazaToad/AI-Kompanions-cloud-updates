@@ -3,11 +3,11 @@
   "last_updated": "2024-12-20T10:00:00Z",
   "files": {
     "en.json": {
-      "version": 1.1.0,
+      "version": "1.1.0",
       "description": "English characters"
     },
     "ja.json": {
-      "version": 1.4.0,
+      "version": "1.4.0",
       "description": "Japanese characters"
     }
   }
