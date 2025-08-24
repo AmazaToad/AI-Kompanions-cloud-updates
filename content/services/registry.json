@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0",
   "services": {
     "GEMINI": {
       "service_id": "GEMINI",
@@ -7,7 +7,7 @@
       "service_type": "llm",
       "requires_key": true,
       "key_pattern": "^AIza[a-zA-Z0-9_-]{35}$",
-      "key_prefix": "AIzaa",
+      "key_prefix": "AIza",
       "key_length": 39,
       "supported_languages": ["*"],
       "validation_endpoint": null
