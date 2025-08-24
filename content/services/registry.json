@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "services": {
     "GEMINI": {
       "service_id": "GEMINI",
@@ -35,7 +35,7 @@
       "key_prefix": "sk_",
       "key_length": 51,
       "validation_endpoint": "https://api.elevenlabs.io/v1/voices",
-      "supported_languages": ["English"]
+      "supported_languages": ["English", "日本語"]
     }
   }
 }
