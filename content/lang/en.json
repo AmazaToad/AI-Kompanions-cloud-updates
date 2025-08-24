@@ -27,11 +27,11 @@
   "select_tts_service": "Select TTS Service",
   "api_key_warning": "⚠ Please scroll down to the 🔐 at the bottom to set up your {service} key",
   "gemini_input_label": "Google Gemini API Key",
-  "gemini_input_placeholder": "Enter your API key starting with AIza",
+  "gemini_input_placeholder": "Enter your API key starting with {key_prefix}",
   "gemini_explanation": "※ A Google Gemini API key is required for this program to access Google's Gemini services. All processing is done locally and the API key is not permanently stored anywhere.<br>**Important:** Save your API key somewhere safe - you won't be able to view it again after creating it in Google AI Studio.",
   "gemini_instructions": "**How to get a Google Gemini API Key:**\n\n1. Visit <a href=\"https://console.cloud.google.com/projectcreate\" target=\"_blank\" rel=\"noopener noreferrer\">Google Cloud Console – Create Project</a>\n2. Sign in with your Google account\n3. Enter a project name and click **Create**\n4. Once the project is created, make sure it is selected in the top bar of the Google Cloud Console\n5. Visit <a href=\"https://aistudio.google.com/app/apikey\" target=\"_blank\" rel=\"noopener noreferrer\">Google AI Studio</a>\n6. Click \"＋ Create API Key\"\n7. Select the project you created\n8. Click **Create API key in existing project**\n9. Copy the new API key and paste it in the field above",
   "elevenlabs_input_label": "ElevenLabs API Key",
-  "elevenlabs_input_placeholder": "Enter your API key starting with sk_",
+  "elevenlabs_input_placeholder": "Enter your API key starting with {key_prefix}",
   "elevenlabs_explanation": "※ An ElevenLabs API key is required for higher quality voice synthesis。All processing is done locally and the API key is not permanently stored anywhere.<br>**Important:** Save your API key somewhere safe - you won't be able to view it again after creating it in ElevenLabs.",
   "elevenlabs_instructions": "**How to get an ElevenLabs API Key:**\n\n1. Visit <a href=\"https://elevenlabs.io/app/settings/api-keys\" target=\"_blank\" rel=\"noopener noreferrer\">ElevenLabs</a>\n2. Create an account or log in\n3. Click \"Create API Key\"\n4. Set the key permissions to 'Text to Speech' and 'Voices (Read Only)' only\n5. Click 'Create'\n6. Copy the new API key and paste it in the field above",
   "coqui_input_label": "Coqui AI API Key",
@@ -60,3 +60,4 @@
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech Service"
 }
+
