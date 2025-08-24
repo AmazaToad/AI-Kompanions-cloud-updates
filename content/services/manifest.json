@@ -1,9 +1,9 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "last_updated": "2024-12-20T16:00:00Z",
   "files": {
     "registry.json": {
-      "version": "1.1",
+      "version": "1.2",
       "description": "Service registry and configuration"
     }
   }
