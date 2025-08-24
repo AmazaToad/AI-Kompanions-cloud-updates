@@ -5,6 +5,10 @@
     "registry.json": {
       "version": "1.0",
       "description": "Service registry and configuration"
+    },
+    "validation_rules.json": {
+      "version": "1.0",
+      "description": "API key validation rules"
     }
   }
 }
