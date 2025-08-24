@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0",
   "validation_recipes": {
     "gemini_api": {
       "steps": [
@@ -33,7 +33,7 @@
         "default_result": "invalid_key"
       }
     },
-    "rest_api": {
+    "http_endpoint": {
       "steps": [
         {
           "action": "prepare_headers",
@@ -73,7 +73,7 @@
       }
     },
     "ELEVENLABS": {
-      "recipe": "rest_api",
+      "recipe": "http_endpoint",
       "variables": {
         "method": "GET",
         "endpoint": "{validation_endpoint}",
