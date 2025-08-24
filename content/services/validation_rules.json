@@ -1,0 +1,89 @@
+{
+  "version": "1.0.0",
+  "validation_recipes": {
+    "gemini_api": {
+      "steps": [
+        {
+          "action": "configure_genai",
+          "params": {
+            "api_key": "{key}"
+          }
+        },
+        {
+          "action": "create_model",
+          "params": {
+            "model_name": "{test_model}"
+          }
+        },
+        {
+          "action": "generate_content",
+          "params": {
+            "prompt": "{test_prompt}"
+          }
+        },
+        {
+          "action": "check_response",
+          "params": {
+            "check_exists": true
+          }
+        }
+      ],
+      "error_handling": {
+        "error_keywords": ["api key", "invalid", "unauthorized"],
+        "default_result": "invalid_key"
+      }
+    },
+    "rest_api": {
+      "steps": [
+        {
+          "action": "prepare_headers",
+          "params": {
+            "template": "{headers}",
+            "replacements": {
+              "{api_key}": "{key}"
+            }
+          }
+        },
+        {
+          "action": "http_request",
+          "params": {
+            "method": "{method}",
+            "url": "{endpoint}",
+            "timeout": "{timeout}"
+          }
+        },
+        {
+          "action": "check_status_code",
+          "params": {
+            "success_codes": "{success_codes}"
+          }
+        }
+      ],
+      "error_handling": {
+        "default_result": "invalid_key"
+      }
+    }
+  },
+  "validators": {
+    "GEMINI": {
+      "recipe": "gemini_api",
+      "variables": {
+        "test_model": "models/gemini-2.5-flash-preview-05-20",
+        "test_prompt": "Hi"
+      }
+    },
+    "ELEVENLABS": {
+      "recipe": "rest_api",
+      "variables": {
+        "method": "GET",
+        "endpoint": "{validation_endpoint}",
+        "headers": {
+          "Accept": "application/json",
+          "xi-api-key": "{api_key}"
+        },
+        "success_codes": [200],
+        "timeout": 10
+      }
+    }
+  }
+}
