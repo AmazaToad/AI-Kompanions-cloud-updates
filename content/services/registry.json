@@ -7,7 +7,7 @@
       "service_type": "llm",
       "requires_key": true,
       "key_pattern": "^AIza[a-zA-Z0-9_-]{35}$",
-      "key_prefix": "AIz",
+      "key_prefix": "AIza",
       "key_length": 39,
       "supported_languages": ["*"],
       "validation_endpoint": null
