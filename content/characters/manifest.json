@@ -1,9 +1,9 @@
 {
-  "version": "1.2",
+  "version": "1.2.1",
   "last_updated": "2025-08-24T10:00:00Z",
   "files": {
     "en.json": {
-      "version": "1.2.1",
+      "version": "1.2.2",
       "description": "English characters"
     },
     "ja.json": {
@@ -11,7 +11,7 @@
       "description": "Japanese characters"
     },
     "de.json": {
-      "version": "1.0",
+      "version": "1.0.1",
       "description": "German characters"
     }
   }
