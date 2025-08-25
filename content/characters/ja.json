@@ -6,7 +6,7 @@
           "NAME": "アイコ",
           "AFFIX": "ちゃん",
           "AFFIX_POSITION": 2,
-          "DEFAULT_MAX_TURNS": 5,
+          "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
             "ELEVENLABS": {
               "voice_id": "cgSgspJ2msm6clMCkdW9",
