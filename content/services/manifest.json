@@ -9,6 +9,10 @@
     "validation_rules.json": {
       "version": "1.0",
       "description": "API key validation rules"
+    },
+    "tts_recipes.json": {
+      "version": "1.0",
+      "description": "TTS recipe rules"
     }
   }
 }
