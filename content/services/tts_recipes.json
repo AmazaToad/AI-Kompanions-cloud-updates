@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "tts_recipes": {
+    "elevenlabs_api": {
+      "steps": [
+        {
+          "action": "get_api_key",
+          "params": {
+            "service": "ELEVENLABS"
+          }
+        },
+        {
+          "action": "get_voice_config",
+          "params": {
+            "service": "ELEVENLABS",
+            "default_voice_id": "JBFqnCBsd6RMkjVDRZzb"
+          }
+        },
+        {
+          "action": "create_temp_file",
+          "params": {
+            "suffix": ".wav"
+          }
+        },
+        {
+          "action": "http_request",
+          "params": {
+            "method": "POST",
+            "url": "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+            "headers": {
+              "Accept": "audio/mpeg",
+              "Content-Type": "application/json",
+              "xi-api-key": "{api_key}"
+            },
+            "body": {
+              "text": "{text}",
+              "model_id": "{model_id}",
+              "voice_settings": "{voice_settings}"
+            },
+            "timeout": 30
+          }
+        },
+        {
+          "action": "convert_audio",
+          "params": {
+            "from_format": "mp3",
+            "to_format": "wav",
+            "response_field": "content"
+          }
+        }
+      ]
+    },
+    "huggingface_space": {
+      "steps": [
+        {
+          "action": "hf_space_call",
+          "params": {
+            "space": "amazatoad-ai-kompanions",
+            "api_name": "/tts_only",
+            "args": ["{text}", "{language}", "{character_id}"]
+          }
+        },
+        {
+          "action": "verify_file",
+          "params": {
+            "check_exists": true
+          }
+        }
+      ]
+    },
+    "openai_tts": {
+      "steps": [
+        {
+          "action": "get_api_key",
+          "params": {
+            "service": "OPENAI"
+          }
+        },
+        {
+          "action": "get_voice_config",
+          "params": {
+            "service": "OPENAI",
+            "default_voice": "alloy"
+          }
+        },
+        {
+          "action": "http_request",
+          "params": {
+            "method": "POST",
+            "url": "https://api.openai.com/v1/audio/speech",
+            "headers": {
+              "Authorization": "Bearer {api_key}",
+              "Content-Type": "application/json"
+            },
+            "body": {
+              "model": "tts-1",
+              "input": "{text}",
+              "voice": "{voice}"
+            }
+          }
+        },
+        {
+          "action": "save_audio_response",
+          "params": {
+            "format": "mp3"
+          }
+        }
+      ]
+    }
+  },
+  "service_tts_mapping": {
+    "ELEVENLABS": "elevenlabs_api",
+    "SBV2": "huggingface_space",
+    "COQUI": "huggingface_space",
+    "OPENAI": "openai_tts"
+  }
+}
