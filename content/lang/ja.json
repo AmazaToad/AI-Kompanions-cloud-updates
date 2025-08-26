@@ -42,8 +42,8 @@
   "coqui_input_placeholder": "APIキーは入力できません",
   "coqui_description": "※ Coquiは、シンプルな音声合成に特化したサービスです。高度な感情表現や声のスタイル調整はできませんが、手軽に利用できます。",
   "coqui_explanation": "",
-  "coqui_instructions": "このサービスはAPIキーの登録は不要です。そのままご利用いただけます。",
   "coqui_notice": "",
+  "coqui_instructions": "このサービスはAPIキーの登録は不要です。そのままご利用いただけます。",
   "sbv2_input_label": "Style-BertVITS2 APIキー",
   "sbv2_input_placeholder": "APIキーは入力できません",
   "sbv2_description": "※ Style-BertVITS2は、テキストの内容から感情を読み取り、声のトーンを自動で調整する、日本語に特化した音声合成サービスです。",
@@ -68,3 +68,4 @@
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "TTSサービス"
 }
+
