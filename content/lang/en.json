@@ -42,8 +42,8 @@
   "coqui_input_placeholder": "API key cannot be entered.",
   "coqui_description": "※ Coqui is a service specializing in simple text-to-speech. While it cannot adjust for advanced emotional expression or voice styles, it can be used with ease.",
   "coqui_explanation": "",
-  "coqui_instructions": "This service does not require API key registration. You can use it as is.",
   "coqui_notice": "",
+  "coqui_instructions": "This service does not require API key registration. You can use it as is.",
   "sbv2_input_label": "Style-BertVITS2 API Key",
   "sbv2_input_placeholder": "API key cannot be entered.",
   "sbv2_description": "※ Style-BertVITS2 is a text-to-speech service specialized for Japanese that reads the emotion from the text and automatically adjusts the voice's tone.",
@@ -68,3 +68,4 @@
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech Service"
 }
+
