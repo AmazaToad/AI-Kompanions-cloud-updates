@@ -48,7 +48,7 @@
   "sbv2_input_placeholder": "APIキーは入力できません",
   "sbv2_description": "※ Style-BertVITS2は、テキストの内容から感情を読み取り、声のトーンを自動で調整する、日本語に特化した音声合成サービスです。",
   "sbv2_explanation": "",
-  "sbv2_notice": "高度な処理を行うため、音声の生成には時間がかかる場合があります。",
+  "sbv2_notice": "⚠ 高度な処理を行うため、音声の生成には時間がかかる場合があります。",
   "sbv2_instructions": "このサービスはAPIキーの登録は不要です。そのままご利用いただけます。",
   "api_key_status_active": "✅ ステータス：有効",
   "api_key_status_invalid_key": "❌ ステータス：無効なAPIキー",
@@ -68,3 +68,4 @@
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "TTSサービス"
 }
+
