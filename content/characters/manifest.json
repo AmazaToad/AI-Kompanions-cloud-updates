@@ -1,13 +1,13 @@
 {
-  "version": "1.4.0",
+  "version": "1.5.0",
   "last_updated": "2025-08-24T10:00:00Z",
   "files": {
     "en.json": {
-      "version": "1.3",
+      "version": "1.4",
       "description": "English characters"
     },
     "ja.json": {
-      "version": "1.4",
+      "version": "1.5",
       "description": "Japanese characters"
     },
     "de.json": {
