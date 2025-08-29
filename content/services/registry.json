@@ -1,22 +1,23 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "services": {
     "GEMINI": {
       "service_id": "GEMINI",
       "display_name": "Google Gemini",
       "service_type": "llm",
       "requires_key": true,
+      "execution_location": "cloud",
       "key_pattern": "^AIza[a-zA-Z0-9_-]{35}$",
       "key_prefix": "AIza",
       "key_length": 39,
-      "supported_languages": ["*"],
-      "validation_endpoint": null
+      "supported_languages": ["*"]
     },
     "SBV2": {
       "service_id": "SBV2",
       "display_name": "Style-BertVITS2",
       "service_type": "tts",
       "requires_key": false,
+      "execution_location": "cloud",
       "supported_languages": ["日本語"]
     },
     "VOICEVOX": {
@@ -24,6 +25,7 @@
       "display_name": "VoiceVox",
       "service_type": "tts",
       "requires_key": false,
+      "execution_location": "cloud",
       "supported_languages": ["日本語"]
     },
     "COQUI": {
@@ -31,6 +33,7 @@
       "display_name": "Coqui AI",
       "service_type": "tts",
       "requires_key": false,
+      "execution_location": "cloud",
       "supported_languages": ["English"]
     },
     "ELEVENLABS": {
@@ -38,6 +41,7 @@
       "display_name": "ElevenLabs",
       "service_type": "tts",
       "requires_key": true,
+      "execution_location": "local",
       "key_pattern": "^sk_[a-zA-Z0-9_-]{48}$",
       "key_prefix": "sk_",
       "key_length": 51,
