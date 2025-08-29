@@ -1,5 +1,6 @@
 {
-  "version": "1.4",
+  "version": "1.5",
+  "default_llm": "GEMINI",
   "default_tts": "COQUI",
   "characters": [
     {
