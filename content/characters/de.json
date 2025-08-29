@@ -1,7 +1,7 @@
 {
   "version": "1.2",
-  "default_llm": "GEMINI",
   "default_tts": "ELEVENLABS",
+  "default_llm": "GEMINI",
   "characters": [
     {
       "ID": "Max",
