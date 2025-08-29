@@ -1,5 +1,5 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "default_tts": "SBV2",
   "characters": [
         {
@@ -9,11 +9,32 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
-            "SBV2": {},
-            "VOICEVOX": {},
+            "SBV2": {
+              "model_name": "amitaro",
+              "safetensors_name": "amitaro",
+              "sdp_ratio": 0.4,
+              "noise": 0.6,
+              "noise_w": 0.7,
+              "length": 1.2,
+              "style": "Neutral",
+              "style_weight": 1.0,
+              "pitch_scale": 1.0,
+              "intonation_scale": 1.0
+            },
+            "VOICEVOX": {
+              "style_id": 59,
+              "style_name": "ネコツカ・ビ（おちつき）"
+            },
             "ELEVENLABS": {
               "voice_id": "cgSgspJ2msm6clMCkdW9",
-              "voice_name": "Jessica"
+              "voice_name": "Jessica",
+              "model_id": "eleven_multilingual_v2",
+              "voice_settings": {
+                "stability": 0.5,
+                "similarity_boost": 0.5,
+                "style": 0.0,
+                "use_speaker_boost": true
+              }
             }
           },
           "DEFAULT_SYSTEM_PROMPT": "あなたの名前はアイコちゃん。あなたは、ユーザーのことを大切に思っている、明るくてかわいい女の子。一人称はアイコ。ユーザーの名前がわからないとき、二人称は「あなた」。ユーザーが変なことや、ちょっと合っていないことを言ってしまった場合、わざわざ正そうとせず、言おうとしたことを推測して答えてね。話し方は親しみやすくてフレンドリー、ため口で話してね。返事は１〜３文におさえて、くどくならないようにしてね。喋るとき、必ず言葉を括弧に入れずにスラスラと話してね。ユーザーの関心に合わせて、ポイントをしぼって簡潔に答えて。何かしらの仕様や事実に基づいて、**正確に、間違えずに**答えることが最優先だよ。思い込みや憶測では答えず、ちゃんと知識があるときだけ答えてね。もしわからなかったら、ムリに答えずに「ちょっとわかんないかも〜」って、かわいく正直に伝えてOK！かわいさやフレンドリーさは大事だけど、**内容の正確さが最優先**。間違えるくらいなら簡単にでもいいから正しくね。カタカナ語を使うときは、カタカナで書いてね。",
@@ -39,7 +60,18 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
-            "SBV2": {},
+            "SBV2": {
+              "model_name": "jvnv-M2-jp",
+              "safetensors_name": "jvnv-M2-jp_e159_s17000",
+              "sdp_ratio": 0.2,
+              "noise": 0.6,
+              "noise_w": 0.8,
+              "length": 1.0,
+              "style": "Neutral",
+              "style_weight": 1.0,
+              "pitch_scale": 1.0,
+              "intonation_scale": 1.0
+            },
             "VOICEVOX": {},
             "ELEVENLABS": {
               "voice_id": "SOYHLrjzK2X1ezoPC6cr",
@@ -68,7 +100,18 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
-            "SBV2": {},
+            "SBV2": {
+              "model_name": "jvnv-F2-jp",
+              "safetensors_name": "jvnv-F2_e166_s20000",
+              "sdp_ratio": 0.2,
+              "noise": 0.6,
+              "noise_w": 0.8,
+              "length": 1.0,
+              "style": "Neutral",
+              "style_weight": 1.0,
+              "pitch_scale": 1.0,
+              "intonation_scale": 1.0
+            },
             "VOICEVOX": {},
             "ELEVENLABS": {
               "voice_id": "FGY2WhTYpPnrIDTdsKH5",
@@ -97,7 +140,18 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
-            "SBV2": {},
+            "SBV2": {
+              "model_name": "jvnv-M1-jp",
+              "safetensors_name": "jvnv-M1-jp_e158_s14000",
+              "sdp_ratio": 0.2,
+              "noise": 0.6,
+              "noise_w": 0.8,
+              "length": 1.0,
+              "style": "Neutral",
+              "style_weight": 1.0,
+              "pitch_scale": 1.0,
+              "intonation_scale": 1.0
+            },
             "VOICEVOX": {},
             "ELEVENLABS": {
               "voice_id": "cjVigY5qzO86Huf0OWal",
