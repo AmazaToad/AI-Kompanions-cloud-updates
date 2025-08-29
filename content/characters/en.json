@@ -9,6 +9,7 @@
       "AFFIX_POSITION": 0,
       "DEFAULT_MAX_TURNS": 10,
       "DEFAULT_TTS_VOICES": {
+        "COQUI": {},
         "ELEVENLABS": {
           "voice_id": "JBFqnCBsd6RMkjVDRZzb",
           "voice_name": "George"
