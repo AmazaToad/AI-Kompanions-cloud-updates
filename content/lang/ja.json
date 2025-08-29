@@ -50,6 +50,12 @@
   "sbv2_explanation": "",
   "sbv2_notice": "⚠ 高度な処理を行うため、音声の生成には時間がかかる場合があります。",
   "sbv2_instructions": "このサービスはAPIキーの登録は不要です。そのままご利用いただけます。",
+  "voicevox_input_label": "VoiceVox APIキー",
+  "voicevox_input_placeholder": "APIキーは入力できません",
+  "voicevox_description": "※ VOICEVOX は、無料で高品質な日本語音声合成ができるソフトウェアです。複数のキャラクター音声を利用でき、誰でも簡単に自然で感情豊かな読み上げを生成できます。",
+  "voicevox_explanation": "",
+  "voicevox_notice": "",
+  "voicevox_instructions": "このサービスはAPIキーの登録は不要です。そのままご利用いただけます。",
   "api_key_status_active": "✅ ステータス：有効",
   "api_key_status_invalid_key": "❌ ステータス：無効なAPIキー",
   "api_key_status_invalid_format": "❌ ステータス：無効な形式",
@@ -68,4 +74,3 @@
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "TTSサービス"
 }
-
