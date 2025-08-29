@@ -50,6 +50,12 @@
   "sbv2_explanation": "",
   "sbv2_notice": "⚠ Because Style-BertVITS2 performs advanced processing, generating audio may take some time.",
   "sbv2_instructions": "This service does not require API key registration. You can use it as is.",
+  "voicevox_input_label": "VoiceVox API Key",
+  "voicevox_input_placeholder": "API key cannot be entered",
+  "voicevox_description": "VoiceVox is a free, high-quality Japanese text-to-speech software. It offers multiple character voices and makes it easy for anyone to generate natural, expressive speech.",
+  "voicevox_explanation": "",
+  "voicevox_notice": "",
+  "voicevox_instructions": "This service does not require API key registration. You can use it as is.",
   "api_key_status_active": "✅ Status: Active",
   "api_key_status_invalid_key": "❌ Status: Invalid API key",
   "api_key_status_invalid_format": "❌ Status: Invalid Format",
@@ -68,5 +74,3 @@
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech Service"
 }
-
-
