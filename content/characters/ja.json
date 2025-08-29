@@ -9,6 +9,8 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
+            "SBV2": {},
+            "VOICEVOX": {},
             "ELEVENLABS": {
               "voice_id": "cgSgspJ2msm6clMCkdW9",
               "voice_name": "Jessica"
@@ -37,6 +39,8 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
+            "SBV2": {},
+            "VOICEVOX": {},
             "ELEVENLABS": {
               "voice_id": "SOYHLrjzK2X1ezoPC6cr",
               "voice_name": "Harry"
@@ -64,6 +68,8 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
+            "SBV2": {},
+            "VOICEVOX": {},
             "ELEVENLABS": {
               "voice_id": "FGY2WhTYpPnrIDTdsKH5",
               "voice_name": "Laura"
@@ -91,6 +97,8 @@
           "AFFIX_POSITION": 2,
           "DEFAULT_MAX_TURNS": 10,
           "DEFAULT_TTS_VOICES": {
+            "SBV2": {},
+            "VOICEVOX": {},
             "ELEVENLABS": {
               "voice_id": "cjVigY5qzO86Huf0OWal",
               "voice_name": "Eric"
