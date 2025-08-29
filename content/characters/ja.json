@@ -1,5 +1,6 @@
 {
   "version": "1.3",
+  "default_tts": "SBV2",
   "characters": [
         {
           "ID": "AIko",
