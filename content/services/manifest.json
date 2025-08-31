@@ -11,7 +11,7 @@
       "description": "API key validation rules"
     },
     "tts_recipes.json": {
-      "version": "1.1",
+      "version": "1.0",
       "description": "TTS recipe rules"
     }
   }
