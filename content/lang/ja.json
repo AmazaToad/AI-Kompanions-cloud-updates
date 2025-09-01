@@ -73,8 +73,8 @@
   "check_updates": "🔄 アップデートを確認",
   "up_to_date": "✅ 最新の状態です",
   "updated_files": "✅ 更新済み: {files}",
-  "check_failed": "❌ アップデート確認に失敗しました：クラウド同期が設定されていません"
-  "update_failed": "| ⚠️ {total_failed} 件のファイル更新に失敗しました"
+  "check_failed": "❌ アップデート確認に失敗しました：クラウド同期が設定されていません",
+  "update_failed": "| ⚠️ {total_failed} 件のファイル更新に失敗しました",
   "update_failed_exception": "❌ アップデート確認に失敗しました： {exception}",
   "gemini_option": "Google Gemini",
   "elevenlabs_option": "ElevenLabs",
