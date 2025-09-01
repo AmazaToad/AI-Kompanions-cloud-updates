@@ -71,6 +71,7 @@
   "cancel_shutdown": "Abbrechen",
   "shutting_down": "Server wird heruntergefahren…",
   "check_updates": "🔄 Nach Updates suchen",
+  "checking": "⏳ Überprüfung läuft…",
   "up_to_date": "✅ Bereits auf dem neuesten Stand",
   "updated_files": "✅ Aktualisiert: {files}",
   "check_failed": "❌ Update-Überprüfung fehlgeschlagen: Cloud-Synchronisierung nicht konfiguriert",
@@ -80,4 +81,3 @@
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech-Dienst"
 }
-
