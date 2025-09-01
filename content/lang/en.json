@@ -70,8 +70,13 @@
   "confirm_shutdown": "Yes",
   "cancel_shutdown": "Cancel",
   "shutting_down": "Server is shutting down…",
+  "check_updates": "🔄 Check Updates",
+  "checking_icon": "⏳ Checking...",
+  "checking_markdown": "Checking for updates...",
+  "up_to_date": "✅ Already up to date",
+  "updated_files": "✅ Updated: {files}",
+  "failed_update": "| ⚠️ {total_failed} files failed",
   "gemini_option": "Google Gemini",
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech Service"
 }
-
