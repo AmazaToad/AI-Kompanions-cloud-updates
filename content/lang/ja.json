@@ -71,6 +71,7 @@
   "cancel_shutdown": "キャンセル",
   "shutting_down": "サーバーがシャットダウンしています…",
   "check_updates": "🔄 アップデートを確認",
+  "checking": "⏳ 確認中…"
   "up_to_date": "✅ 最新の状態です",
   "updated_files": "✅ 更新済み: {files}",
   "check_failed": "❌ アップデート確認に失敗しました：クラウド同期が設定されていません",
