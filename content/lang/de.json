@@ -71,11 +71,11 @@
   "cancel_shutdown": "Abbrechen",
   "shutting_down": "Server wird heruntergefahren…",
   "check_updates": "🔄 Nach Updates suchen",
-  "checking_icon": "⏳ Überprüfung läuft...",
-  "checking_markdown": "Es wird nach Updates gesucht...",
   "up_to_date": "✅ Bereits auf dem neuesten Stand",
   "updated_files": "✅ Aktualisiert: {files}",
-  "failed_update": "| ⚠️ {total_failed} Dateien fehlgeschlagen"
+  "check_failed": "❌ Update-Überprüfung fehlgeschlagen: Cloud-Synchronisierung nicht konfiguriert"
+  "update_failed": "| ⚠️ {total_failed} Dateien fehlgeschlagen",
+  "update_failed_exception": "❌ Update check failed: {exception}",
   "gemini_option": "Google Gemini",
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech-Dienst"
