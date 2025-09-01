@@ -75,7 +75,7 @@
   "updated_files": "✅ Aktualisiert: {files}",
   "check_failed": "❌ Update-Überprüfung fehlgeschlagen: Cloud-Synchronisierung nicht konfiguriert"
   "update_failed": "| ⚠️ {total_failed} Dateien fehlgeschlagen",
-  "update_failed_exception": "❌ Update check failed: {exception}",
+  "update_failed_exception": "❌ Update-Überprüfung fehlgeschlagen: {exception}",
   "gemini_option": "Google Gemini",
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech-Dienst"
