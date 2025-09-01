@@ -73,8 +73,9 @@
   "check_updates": "🔄 Check Updates",
   "up_to_date": "✅ Already up to date",
   "updated_files": "✅ Updated: {files}",
-  "update_failed": "| ⚠️ {total_failed} files failed",
-  "update_failed_exception": "❌ Update check failed: {exception}",
+  "check_failed": "❌ Update check failed: Cloud sync not configured",
+  "failed_update": "| ⚠️ {total_failed} files failed",
+  "failed_update_exception": "❌ Update check failed: {exception}",
   "gemini_option": "Google Gemini",
   "elevenlabs_option": "ElevenLabs",
   "tts_service_label": "Text-to-Speech Service"
