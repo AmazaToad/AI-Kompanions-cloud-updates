@@ -71,6 +71,7 @@
   "cancel_shutdown": "Cancel",
   "shutting_down": "Server is shutting down…",
   "check_updates": "🔄 Check Updates",
+  "checking": "⏳Checking…",
   "up_to_date": "✅ Already up to date",
   "updated_files": "✅ Updated: {files}",
   "check_failed": "❌ Update check failed: Cloud sync not configured",
