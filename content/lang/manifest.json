@@ -1,17 +1,17 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "last_updated": "2025-08-22T10:00:00Z",
   "files": {
     "en.json": {
-      "version": "1.5",
+      "version": "1.6",
       "description": "English language strings"
     },
     "ja.json": {
-      "version": "1.5",
+      "version": "1.6",
       "description": "Japanese language strings"
     },
     "de.json": {
-      "version": "1.5",
+      "version": "1.6",
       "description": "German language strings"
     }
   }
