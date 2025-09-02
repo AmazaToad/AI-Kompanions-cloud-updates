@@ -11,7 +11,7 @@
       "DEFAULT_MAX_TURNS": 10,
       "DEFAULT_TTS_VOICES": {
         "COQUI": {
-          "voice": "p234",
+          "voice": "p234"
         },
         "ELEVENLABS": {
           "voice_id": "JBFqnCBsd6RMkjVDRZzb",
