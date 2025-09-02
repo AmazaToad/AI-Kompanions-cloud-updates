@@ -6,7 +6,41 @@
     "title": "AI Kompanions",
     "chat_title": "Chat with {name}",
     "about_title": "About AI Kompanions",
-    "about_text": "AI Kompanions\nVersion 1.0\n\nA multilingual AI chat application"
+    "about_text": "AI Kompanions\nVersion 1.0\n\nA multilingual AI chat application",
+    "confirm_exit_title": "Confirm Exit - AI Kompanions"
+  },
+  
+  "splash": {
+    "validating_environment": "Validating environment...",
+    "creating_interface": "Creating interface...",
+    "initializing_services": "Initializing services...",
+    "loading_application": "Loading application..."
+  },
+  
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "help": "Help",
+    "reload_chat": "Reload Chat",
+    "exit": "Exit",
+    "clear_chat": "Clear Chat",
+    "about": "About"
+  },
+  
+  "tabs": {
+    "settings": "Settings",
+    "audio": "Audio",
+    "api_keys": "API Keys"
+  },
+  
+  "groups": {
+    "input": "Input",
+    "language": "Language",
+    "character": "Character",
+    "memory": "Memory",
+    "audio_output": "Audio Output",
+    "audio_history": "Audio History",
+    "tts_service": "TTS Service"
   },
   
   "buttons": {
@@ -21,20 +55,17 @@
     "clear": "Clear",
     "show_password": "👁",
     "hide_password": "🔒",
-    "shutdown": "⏻"
+    "shutdown": "⏻",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cancel": "Cancel"
   },
   
   "labels": {
-    "input": "Input",
-    "language": "Language",
-    "character": "Character",
-    "memory": "Memory",
-    "audio_output": "Audio Output",
-    "audio_history": "Audio History",
-    "tts_service": "TTS Service",
-    "api_keys": "API Keys",
-    "settings": "Settings",
-    "audio": "Audio"
+    "ready": "Ready",
+    "recording": "Recording...",
+    "no_key_set": "No key set"
   },
   
   "placeholders": {
@@ -58,7 +89,10 @@
     "syncing": "Checking for updates...",
     "sync_complete": "Update complete",
     "sync_failed": "Update failed",
-    "already_updated": "Already up to date"
+    "already_updated": "Already up to date",
+    "conversation_reset": "Conversation reset",
+    "starting_sync": "Starting synchronization...",
+    "checking_updates": "Checking for updates..."
   },
   
   "dialogs": {
@@ -66,25 +100,12 @@
     "reset_message": "Are you sure you want to reset the conversation?",
     "shutdown_title": "Shutdown",
     "shutdown_message": "Are you sure you want to quit?",
+    "confirm_exit_message": "Are you sure you want to exit?",
     "error_title": "Error",
     "warning_title": "Warning",
     "info_title": "Information",
-    "confirm_exit_title": "Confirm Exit",
-    "confirm_exit_message": "Are you sure you want to exit?",
-    "yes": "Yes",
-    "no": "No",
-    "ok": "OK",
-    "cancel": "Cancel"
-  },
-  
-  "menu": {
-    "file": "File",
-    "edit": "Edit",
-    "help": "Help",
-    "reload_chat": "Reload Chat",
-    "exit": "Exit",
-    "clear_chat": "Clear Chat",
-    "about": "About"
+    "application_error": "Application Error",
+    "environment_error": "Environment Error"
   },
   
   "errors": {
@@ -104,7 +125,12 @@
     "load_failed": "Failed to load {item}",
     "save_failed": "Failed to save {item}",
     "network_error": "Network error: {message}",
-    "unexpected_error": "An unexpected error occurred"
+    "unexpected_error": "An unexpected error occurred",
+    "initialization_failed": "Initialization failed: {error}",
+    "see_log": "See log file for details.",
+    "env_validation_failed": "Environment validation failed:",
+    "tts_error": "TTS error: {error}",
+    "ai_error": "Error: {error}"
   },
   
   "tooltips": {
@@ -119,9 +145,18 @@
   },
   
   "time": {
-    "format": "MM:SS",
+    "format": "{minutes:02d}:{seconds:02d}",
     "seconds": "{count} seconds",
     "minutes": "{count} minutes",
     "hours": "{count} hours"
+  },
+  
+  "audio": {
+    "reply_item": "Reply #{number}"
+  },
+  
+  "api": {
+    "google_gemini": "Google Gemini",
+    "elevenlabs": "ElevenLabs"
   }
 }
