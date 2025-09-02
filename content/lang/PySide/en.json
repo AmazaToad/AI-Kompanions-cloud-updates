@@ -1,0 +1,127 @@
+{
+  "_language_name": "English",
+  "_language_code": "en",
+  
+  "window": {
+    "title": "AI Kompanions",
+    "chat_title": "Chat with {name}",
+    "about_title": "About AI Kompanions",
+    "about_text": "AI Kompanions\nVersion 1.0\n\nA multilingual AI chat application"
+  },
+  
+  "buttons": {
+    "submit": "Submit",
+    "reset_conversation": "Reset Conversation",
+    "check_updates": "🔄 Check Updates",
+    "record": "🎤 Record",
+    "stop": "⏹ Stop",
+    "play": "▶",
+    "pause": "⏸",
+    "validate": "Validate",
+    "clear": "Clear",
+    "show_password": "👁",
+    "hide_password": "🔒",
+    "shutdown": "⏻"
+  },
+  
+  "labels": {
+    "input": "Input",
+    "language": "Language",
+    "character": "Character",
+    "memory": "Memory",
+    "audio_output": "Audio Output",
+    "audio_history": "Audio History",
+    "tts_service": "TTS Service",
+    "api_keys": "API Keys",
+    "settings": "Settings",
+    "audio": "Audio"
+  },
+  
+  "placeholders": {
+    "message_input": "Type your message...",
+    "api_key": "Enter {service} API key"
+  },
+  
+  "status": {
+    "ready": "Ready",
+    "recording": "Recording...",
+    "generating": "Generating response...",
+    "playing": "Playing...",
+    "stopped": "Stopped",
+    "loading": "Loading...",
+    "saving": "Saving...",
+    "error": "Error: {message}",
+    "no_key_set": "No key set",
+    "key_valid": "✅ Valid",
+    "key_invalid": "❌ Invalid",
+    "validating": "Validating...",
+    "syncing": "Checking for updates...",
+    "sync_complete": "Update complete",
+    "sync_failed": "Update failed",
+    "already_updated": "Already up to date"
+  },
+  
+  "dialogs": {
+    "reset_title": "Reset Conversation",
+    "reset_message": "Are you sure you want to reset the conversation?",
+    "shutdown_title": "Shutdown",
+    "shutdown_message": "Are you sure you want to quit?",
+    "error_title": "Error",
+    "warning_title": "Warning",
+    "info_title": "Information",
+    "confirm_exit_title": "Confirm Exit",
+    "confirm_exit_message": "Are you sure you want to exit?",
+    "yes": "Yes",
+    "no": "No",
+    "ok": "OK",
+    "cancel": "Cancel"
+  },
+  
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "help": "Help",
+    "reload_chat": "Reload Chat",
+    "exit": "Exit",
+    "clear_chat": "Clear Chat",
+    "about": "About"
+  },
+  
+  "errors": {
+    "env_missing": "Missing required environment variable: {variable}",
+    "package_missing": "Missing required package: {package}",
+    "ffmpeg_missing": "FFmpeg not found. Please install FFmpeg for audio processing.",
+    "service_not_found": "Service {service} not found",
+    "character_not_found": "Character not found",
+    "language_not_found": "Language file not found",
+    "api_key_invalid": "Invalid API key format",
+    "api_key_required": "API key required for {service}",
+    "recording_failed": "Failed to start recording",
+    "playback_failed": "Failed to play audio",
+    "generation_failed": "Failed to generate response",
+    "transcription_failed": "Failed to transcribe audio",
+    "file_not_found": "File not found: {file}",
+    "load_failed": "Failed to load {item}",
+    "save_failed": "Failed to save {item}",
+    "network_error": "Network error: {message}",
+    "unexpected_error": "An unexpected error occurred"
+  },
+  
+  "tooltips": {
+    "record_audio": "Click to record audio",
+    "toggle_visibility": "Toggle password visibility",
+    "validate_key": "Validate API key",
+    "clear_key": "Clear API key",
+    "play_audio": "Play audio",
+    "stop_audio": "Stop audio playback",
+    "reset_chat": "Clear conversation and start over",
+    "check_updates": "Check for content updates"
+  },
+  
+  "time": {
+    "format": "MM:SS",
+    "seconds": "{count} seconds",
+    "minutes": "{count} minutes",
+    "hours": "{count} hours"
+  }
+}
