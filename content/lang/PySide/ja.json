@@ -4,7 +4,7 @@
   
   "window": {
     "title": "AI Kompanions",
-    "chat_title": "{name} との会話",
+    "chat_title": "🗨️ {name} との会話",
     "about_title": "AI Kompanions について",
     "about_text": "AI Kompanions\nバージョン 1.0\n\n多言語対応 AI チャットアプリケーション",
     "confirm_exit_title": "終了確認 - AI Kompanions"
