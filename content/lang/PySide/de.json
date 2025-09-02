@@ -6,75 +6,15 @@
     "title": "AI Kompanions",
     "chat_title": "Chat mit {name}",
     "about_title": "Über AI Kompanions",
-    "about_text": "AI Kompanions\nVersion 1.0\n\nEine mehrsprachige KI-Chat-Anwendung"
+    "about_text": "AI Kompanions\nVersion 1.0\n\nEine mehrsprachige KI-Chat-Anwendung",
+    "confirm_exit_title": "Beenden bestätigen - AI Kompanions"
   },
   
-  "buttons": {
-    "submit": "Senden",
-    "reset_conversation": "Gespräch zurücksetzen",
-    "check_updates": "🔄 Nach Updates suchen",
-    "record": "🎤 Aufnehmen",
-    "stop": "⏹ Stopp",
-    "play": "▶ Abspielen",
-    "pause": "⏸ Pause",
-    "validate": "Prüfen",
-    "clear": "Löschen",
-    "show_password": "👁 Anzeigen",
-    "hide_password": "🔒 Verbergen",
-    "shutdown": "⏻ Beenden"
-  },
-  
-  "labels": {
-    "input": "Eingabe",
-    "language": "Sprache",
-    "character": "Charakter",
-    "memory": "Speicher",
-    "audio_output": "Audioausgabe",
-    "audio_history": "Audioverlauf",
-    "tts_service": "TTS-Dienst",
-    "api_keys": "API-Schlüssel",
-    "settings": "Einstellungen",
-    "audio": "Audio"
-  },
-  
-  "placeholders": {
-    "message_input": "Nachricht eingeben...",
-    "api_key": "{service} API-Schlüssel eingeben"
-  },
-  
-  "status": {
-    "ready": "Bereit",
-    "recording": "Aufnahme läuft...",
-    "generating": "Antwort wird erzeugt...",
-    "playing": "Wiedergabe...",
-    "stopped": "Gestoppt",
-    "loading": "Lädt...",
-    "saving": "Speichert...",
-    "error": "Fehler: {message}",
-    "no_key_set": "Kein Schlüssel gesetzt",
-    "key_valid": "✅ Gültig",
-    "key_invalid": "❌ Ungültig",
-    "validating": "Prüfen...",
-    "syncing": "Suche nach Updates...",
-    "sync_complete": "Update abgeschlossen",
-    "sync_failed": "Update fehlgeschlagen",
-    "already_updated": "Bereits auf dem neuesten Stand"
-  },
-  
-  "dialogs": {
-    "reset_title": "Gespräch zurücksetzen",
-    "reset_message": "Sind Sie sicher, dass Sie das Gespräch zurücksetzen möchten?",
-    "shutdown_title": "Beenden",
-    "shutdown_message": "Möchten Sie die Anwendung wirklich schließen?",
-    "error_title": "Fehler",
-    "warning_title": "Warnung",
-    "info_title": "Information",
-    "confirm_exit_title": "Beenden bestätigen",
-    "confirm_exit_message": "Möchten Sie wirklich beenden?",
-    "yes": "Ja",
-    "no": "Nein",
-    "ok": "OK",
-    "cancel": "Abbrechen"
+  "splash": {
+    "validating_environment": "Umgebung wird überprüft...",
+    "creating_interface": "Benutzeroberfläche wird erstellt...",
+    "initializing_services": "Dienste werden initialisiert...",
+    "loading_application": "Anwendung wird geladen..."
   },
   
   "menu": {
@@ -87,41 +27,136 @@
     "about": "Über"
   },
   
+  "tabs": {
+    "settings": "Einstellungen",
+    "audio": "Audio",
+    "api_keys": "API-Schlüssel"
+  },
+  
+  "groups": {
+    "input": "Eingabe",
+    "language": "Sprache",
+    "character": "Charakter",
+    "memory": "Speicher",
+    "audio_output": "Audioausgabe",
+    "audio_history": "Audioverlauf",
+    "tts_service": "TTS-Dienst"
+  },
+  
+  "buttons": {
+    "submit": "Senden",
+    "reset_conversation": "Konversation zurücksetzen",
+    "check_updates": "🔄 Nach Updates suchen",
+    "record": "🎤 Aufnehmen",
+    "stop": "⏹ Stopp",
+    "play": "▶ Abspielen",
+    "pause": "⏸ Pause",
+    "validate": "Überprüfen",
+    "clear": "Löschen",
+    "show_password": "👁 Passwort anzeigen",
+    "hide_password": "🔒 Passwort verbergen",
+    "shutdown": "⏻ Herunterfahren",
+    "yes": "Ja",
+    "no": "Nein",
+    "ok": "OK",
+    "cancel": "Abbrechen"
+  },
+  
+  "labels": {
+    "ready": "Bereit",
+    "recording": "Aufnahme läuft...",
+    "no_key_set": "Kein Schlüssel gesetzt"
+  },
+  
+  "placeholders": {
+    "message_input": "Nachricht eingeben...",
+    "api_key": "{service} API-Schlüssel eingeben"
+  },
+  
+  "status": {
+    "ready": "Bereit",
+    "recording": "Aufnahme läuft...",
+    "generating": "Antwort wird generiert...",
+    "playing": "Wird abgespielt...",
+    "stopped": "Gestoppt",
+    "loading": "Wird geladen...",
+    "saving": "Wird gespeichert...",
+    "error": "Fehler: {message}",
+    "no_key_set": "Kein Schlüssel gesetzt",
+    "key_valid": "✅ Gültig",
+    "key_invalid": "❌ Ungültig",
+    "validating": "Überprüfung läuft...",
+    "syncing": "Es wird nach Updates gesucht...",
+    "sync_complete": "Update abgeschlossen",
+    "sync_failed": "Update fehlgeschlagen",
+    "already_updated": "Bereits auf dem neuesten Stand",
+    "conversation_reset": "Konversation zurückgesetzt",
+    "starting_sync": "Synchronisierung wird gestartet...",
+    "checking_updates": "Updates werden überprüft..."
+  },
+  
+  "dialogs": {
+    "reset_title": "Konversation zurücksetzen",
+    "reset_message": "Sind Sie sicher, dass Sie die Konversation zurücksetzen möchten?",
+    "shutdown_title": "Herunterfahren",
+    "shutdown_message": "Sind Sie sicher, dass Sie beenden möchten?",
+    "confirm_exit_message": "Sind Sie sicher, dass Sie beenden möchten?",
+    "error_title": "Fehler",
+    "warning_title": "Warnung",
+    "info_title": "Information",
+    "application_error": "Anwendungsfehler",
+    "environment_error": "Umgebungsfehler"
+  },
+  
   "errors": {
     "env_missing": "Fehlende erforderliche Umgebungsvariable: {variable}",
     "package_missing": "Fehlendes erforderliches Paket: {package}",
-    "ffmpeg_missing": "FFmpeg nicht gefunden. Bitte installieren Sie FFmpeg für die Audiobearbeitung.",
-    "service_not_found": "Dienst {service} nicht gefunden",
+    "ffmpeg_missing": "FFmpeg nicht gefunden. Bitte installieren Sie FFmpeg für die Audioverarbeitung.",
+    "service_not_found": "Dienst nicht gefunden: {service}",
     "character_not_found": "Charakter nicht gefunden",
     "language_not_found": "Sprachdatei nicht gefunden",
     "api_key_invalid": "Ungültiges API-Schlüsselformat",
     "api_key_required": "API-Schlüssel erforderlich für {service}",
     "recording_failed": "Aufnahme konnte nicht gestartet werden",
     "playback_failed": "Audio konnte nicht wiedergegeben werden",
-    "generation_failed": "Antwort konnte nicht erzeugt werden",
+    "generation_failed": "Antwort konnte nicht generiert werden",
     "transcription_failed": "Audio konnte nicht transkribiert werden",
     "file_not_found": "Datei nicht gefunden: {file}",
     "load_failed": "{item} konnte nicht geladen werden",
     "save_failed": "{item} konnte nicht gespeichert werden",
     "network_error": "Netzwerkfehler: {message}",
-    "unexpected_error": "Ein unerwarteter Fehler ist aufgetreten"
+    "unexpected_error": "Ein unerwarteter Fehler ist aufgetreten",
+    "initialization_failed": "Initialisierung fehlgeschlagen: {error}",
+    "see_log": "Details siehe Logdatei.",
+    "env_validation_failed": "Umgebungsüberprüfung fehlgeschlagen:",
+    "tts_error": "TTS-Fehler: {error}",
+    "ai_error": "Fehler: {error}"
   },
   
   "tooltips": {
     "record_audio": "Zum Aufnehmen klicken",
     "toggle_visibility": "Passwortsichtbarkeit umschalten",
-    "validate_key": "API-Schlüssel prüfen",
+    "validate_key": "API-Schlüssel überprüfen",
     "clear_key": "API-Schlüssel löschen",
     "play_audio": "Audio abspielen",
     "stop_audio": "Audiowiedergabe stoppen",
-    "reset_chat": "Gespräch löschen und neu beginnen",
-    "check_updates": "Nach Inhaltsupdates suchen"
+    "reset_chat": "Konversation löschen und neu beginnen",
+    "check_updates": "Nach Inhalts-Updates suchen"
   },
   
   "time": {
-    "format": "MM:SS",
+    "format": "{minutes:02d}:{seconds:02d}",
     "seconds": "{count} Sekunden",
     "minutes": "{count} Minuten",
     "hours": "{count} Stunden"
+  },
+  
+  "audio": {
+    "reply_item": "Antwort #{number}"
+  },
+  
+  "api": {
+    "google_gemini": "Google Gemini",
+    "elevenlabs": "ElevenLabs"
   }
 }
