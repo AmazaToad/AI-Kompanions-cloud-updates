@@ -6,7 +6,41 @@
     "title": "AI Kompanions",
     "chat_title": "{name} との会話",
     "about_title": "AI Kompanions について",
-    "about_text": "AI Kompanions\nバージョン 1.0\n\n多言語対応の AI チャットアプリケーション"
+    "about_text": "AI Kompanions\nバージョン 1.0\n\n多言語対応 AI チャットアプリケーション",
+    "confirm_exit_title": "終了確認 - AI Kompanions"
+  },
+  
+  "splash": {
+    "validating_environment": "環境を確認中...",
+    "creating_interface": "インターフェースを作成中...",
+    "initializing_services": "サービスを初期化中...",
+    "loading_application": "アプリケーションを読み込み中..."
+  },
+  
+  "menu": {
+    "file": "ファイル",
+    "edit": "編集",
+    "help": "ヘルプ",
+    "reload_chat": "チャットを再読み込み",
+    "exit": "終了",
+    "clear_chat": "チャットをクリア",
+    "about": "バージョン情報"
+  },
+  
+  "tabs": {
+    "settings": "設定",
+    "audio": "音声",
+    "api_keys": "API キー"
+  },
+  
+  "groups": {
+    "input": "入力",
+    "language": "言語",
+    "character": "キャラクター",
+    "memory": "メモリー",
+    "audio_output": "音声出力",
+    "audio_history": "音声履歴",
+    "tts_service": "TTS サービス"
   },
   
   "buttons": {
@@ -19,22 +53,19 @@
     "pause": "⏸ 一時停止",
     "validate": "確認",
     "clear": "クリア",
-    "show_password": "👁 表示",
-    "hide_password": "🔒 非表示",
-    "shutdown": "⏻ 終了"
+    "show_password": "👁 パスワード表示",
+    "hide_password": "🔒 パスワード非表示",
+    "shutdown": "⏻ シャットダウン",
+    "yes": "はい",
+    "no": "いいえ",
+    "ok": "OK",
+    "cancel": "キャンセル"
   },
   
   "labels": {
-    "input": "入力",
-    "language": "言語",
-    "character": "キャラクター",
-    "memory": "メモリ",
-    "audio_output": "音声出力",
-    "audio_history": "音声履歴",
-    "tts_service": "TTS サービス",
-    "api_keys": "API キー",
-    "settings": "設定",
-    "audio": "音声"
+    "ready": "準備完了",
+    "recording": "録音中...",
+    "no_key_set": "キーが設定されていません"
   },
   
   "placeholders": {
@@ -57,71 +88,75 @@
     "validating": "確認中...",
     "syncing": "アップデートを確認中...",
     "sync_complete": "アップデート完了",
-    "sync_failed": "アップデート失敗",
-    "already_updated": "すでに最新です"
+    "sync_failed": "アップデートに失敗しました",
+    "already_updated": "最新の状態です",
+    "conversation_reset": "会話をリセットしました",
+    "starting_sync": "同期を開始しています...",
+    "checking_updates": "アップデートを確認中..."
   },
   
   "dialogs": {
     "reset_title": "会話をリセット",
-    "reset_message": "会話をリセットしてもよろしいですか？",
-    "shutdown_title": "終了",
-    "shutdown_message": "アプリを終了してもよろしいですか？",
+    "reset_message": "本当に会話をリセットしますか？",
+    "shutdown_title": "シャットダウン",
+    "shutdown_message": "本当に終了しますか？",
+    "confirm_exit_message": "本当に終了してもよろしいですか？",
     "error_title": "エラー",
     "warning_title": "警告",
     "info_title": "情報",
-    "confirm_exit_title": "終了確認",
-    "confirm_exit_message": "終了してもよろしいですか？",
-    "yes": "はい",
-    "no": "いいえ",
-    "ok": "OK",
-    "cancel": "キャンセル"
-  },
-  
-  "menu": {
-    "file": "ファイル",
-    "edit": "編集",
-    "help": "ヘルプ",
-    "reload_chat": "チャットを再読み込み",
-    "exit": "終了",
-    "clear_chat": "チャットをクリア",
-    "about": "バージョン情報"
+    "application_error": "アプリケーションエラー",
+    "environment_error": "環境エラー"
   },
   
   "errors": {
     "env_missing": "必要な環境変数がありません: {variable}",
     "package_missing": "必要なパッケージがありません: {package}",
     "ffmpeg_missing": "FFmpeg が見つかりません。音声処理のために FFmpeg をインストールしてください。",
-    "service_not_found": "サービス {service} が見つかりません",
+    "service_not_found": "サービスが見つかりません: {service}",
     "character_not_found": "キャラクターが見つかりません",
     "language_not_found": "言語ファイルが見つかりません",
-    "api_key_invalid": "無効な API キー形式です",
+    "api_key_invalid": "無効な API キー形式",
     "api_key_required": "{service} の API キーが必要です",
-    "recording_failed": "録音を開始できませんでした",
-    "playback_failed": "音声を再生できませんでした",
-    "generation_failed": "応答を生成できませんでした",
-    "transcription_failed": "音声を文字起こしできませんでした",
+    "recording_failed": "録音の開始に失敗しました",
+    "playback_failed": "音声の再生に失敗しました",
+    "generation_failed": "応答の生成に失敗しました",
+    "transcription_failed": "音声の文字起こしに失敗しました",
     "file_not_found": "ファイルが見つかりません: {file}",
-    "load_failed": "{item} を読み込めませんでした",
-    "save_failed": "{item} を保存できませんでした",
+    "load_failed": "{item} の読み込みに失敗しました",
+    "save_failed": "{item} の保存に失敗しました",
     "network_error": "ネットワークエラー: {message}",
-    "unexpected_error": "予期しないエラーが発生しました"
+    "unexpected_error": "予期しないエラーが発生しました",
+    "initialization_failed": "初期化に失敗しました: {error}",
+    "see_log": "詳細はログファイルを参照してください。",
+    "env_validation_failed": "環境の検証に失敗しました:",
+    "tts_error": "TTS エラー: {error}",
+    "ai_error": "エラー: {error}"
   },
   
   "tooltips": {
-    "record_audio": "クリックして録音",
-    "toggle_visibility": "パスワードの表示を切り替え",
+    "record_audio": "クリックして音声を録音",
+    "toggle_visibility": "パスワードの表示/非表示を切り替え",
     "validate_key": "API キーを確認",
     "clear_key": "API キーをクリア",
     "play_audio": "音声を再生",
     "stop_audio": "音声再生を停止",
-    "reset_chat": "会話をクリアしてやり直し",
+    "reset_chat": "会話を消去して最初からやり直す",
     "check_updates": "コンテンツのアップデートを確認"
   },
   
   "time": {
-    "format": "MM:SS",
+    "format": "{minutes:02d}:{seconds:02d}",
     "seconds": "{count} 秒",
     "minutes": "{count} 分",
     "hours": "{count} 時間"
+  },
+  
+  "audio": {
+    "reply_item": "返信 #{number}"
+  },
+  
+  "api": {
+    "google_gemini": "Google Gemini",
+    "elevenlabs": "ElevenLabs"
   }
 }
