@@ -4,7 +4,7 @@
   
   "window": {
     "title": "AI Kompanions",
-    "chat_title": "Chat mit {name}",
+    "chat_title": "🗨️ Chat mit {name}",
     "about_title": "Über AI Kompanions",
     "about_text": "AI Kompanions\nVersion 1.0\n\nEine mehrsprachige KI-Chat-Anwendung",
     "confirm_exit_title": "Beenden bestätigen - AI Kompanions"
