@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "description": "Fixed phrase audio files for characters to avoid TTS service costs",
+  "structure": {
+    "languages": ["en", "ja", "de"],
+    "phrase_types": ["error_phrase"]
+  },
+  "files": {
+    "en/AIbro/COQUI/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "en",
+      "character": "AIbro",
+      "service": "COQUI",
+      "phrase_type": "error"
+    },
+    "en/AIbro/ELEVENLABS/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "en",
+      "character": "AIbro",
+      "service": "ELEVENLABS",
+      "phrase_type": "error"
+    },
+    "ja/AIko/SBV2/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "AIko",
+      "service": "SBV2",
+      "phrase_type": "error"
+    },
+    "ja/AIko/VOICEVOX/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "AIko",
+      "service": "VOICEVOX",
+      "phrase_type": "error"
+    },
+    "ja/AIko/ELEVENLABS/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "AIko",
+      "service": "ELEVENLABS",
+      "phrase_type": "error"
+    },
+    "ja/AIto/SBV2/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "AIto",
+      "service": "SBV2",
+      "phrase_type": "error"
+    },
+    "ja/AIto/ELEVENLABS/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "AIto",
+      "service": "ELEVENLABS",
+      "phrase_type": "error"
+    },
+    "ja/Riko/SBV2/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "Riko",
+      "service": "SBV2",
+      "phrase_type": "error"
+    },
+    "ja/Riko/ELEVENLABS/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "Riko",
+      "service": "ELEVENLABS",
+      "phrase_type": "error"
+    },
+    "ja/Haruki/SBV2/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "Haruki",
+      "service": "SBV2",
+      "phrase_type": "error"
+    },
+    "ja/Haruki/ELEVENLABS/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "Haruki",
+      "service": "ELEVENLABS",
+      "phrase_type": "error"
+    },
+    "de/Max/ELEVENLABS/error_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "de",
+      "character": "Max",
+      "service": "ELEVENLABS",
+      "phrase_type": "error"
+    }
+  }
+}
