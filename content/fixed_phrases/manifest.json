@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "description": "Fixed phrase audio files for characters to avoid TTS service costs",
   "structure": {
     "languages": ["en", "ja", "de"],
@@ -7,7 +7,7 @@
   },
   "files": {
     "en/AIbro/COQUI/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "en",
       "character": "AIbro",
@@ -15,7 +15,7 @@
       "phrase_type": "error"
     },
     "en/AIbro/ELEVENLABS/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "en",
       "character": "AIbro",
@@ -23,7 +23,7 @@
       "phrase_type": "error"
     },
     "ja/AIko/SBV2/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "AIko",
@@ -31,7 +31,7 @@
       "phrase_type": "error"
     },
     "ja/AIko/VOICEVOX/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "AIko",
@@ -39,7 +39,7 @@
       "phrase_type": "error"
     },
     "ja/AIko/ELEVENLABS/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "AIko",
@@ -47,7 +47,7 @@
       "phrase_type": "error"
     },
     "ja/AIto/SBV2/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "AIto",
@@ -55,7 +55,7 @@
       "phrase_type": "error"
     },
     "ja/AIto/ELEVENLABS/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "AIto",
@@ -63,7 +63,7 @@
       "phrase_type": "error"
     },
     "ja/Riko/SBV2/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "Riko",
@@ -71,7 +71,7 @@
       "phrase_type": "error"
     },
     "ja/Riko/ELEVENLABS/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "Riko",
@@ -79,7 +79,7 @@
       "phrase_type": "error"
     },
     "ja/Haruki/SBV2/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "Haruki",
@@ -87,7 +87,7 @@
       "phrase_type": "error"
     },
     "ja/Haruki/ELEVENLABS/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "ja",
       "character": "Haruki",
@@ -95,7 +95,7 @@
       "phrase_type": "error"
     },
     "de/Max/ELEVENLABS/error_phrase.wav": {
-      "version": "1.0",
+      "version": "1.1",
       "size": 0,
       "language": "de",
       "character": "Max",
