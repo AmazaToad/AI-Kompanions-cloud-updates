@@ -1,6 +1,6 @@
 {
-  "version": "2.0",
-  "last_updated": "2025-08-24T10:00:00Z",
+  "version": "2.1",
+  "last_updated": "2025-12-07T11:32:36Z",
   "files": {
     "en.json": {
       "version": "2.0",
@@ -11,7 +11,7 @@
       "description": "Japanese characters"
     },
     "de.json": {
-      "version": "2.0",
+      "version": "2.1",
       "description": "German characters"
     }
   }
