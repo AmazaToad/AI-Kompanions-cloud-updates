@@ -11,7 +11,7 @@
       "MAX_TURNS": 10,
       "TTS_VOICES": {
         "SBV2": {
-          "model_name": "amitaroo",
+          "model_name": "amitaro",
           "safetensors_name": "amitaro",
           "sdp_ratio": 0.4,
           "noise": 0.6,
