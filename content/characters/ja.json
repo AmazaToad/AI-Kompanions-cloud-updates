@@ -4,46 +4,6 @@
   "llm": "GEMINI",
   "characters": [
     {
-      "ID": "AIto",
-      "NAME": "アイト",
-      "AFFIX": "くん",
-      "AFFIX_POSITION": 2,
-      "MAX_TURNS": 10,
-      "TTS_VOICES": {
-        "SBV2": {
-          "model_name": "jvnv-M2-jp",
-          "safetensors_name": "jvnv-M2-jp_e159_s17000",
-          "sdp_ratio": 0.2,
-          "noise": 0.6,
-          "noise_w": 0.8,
-          "length": 1,
-          "style": "Neutral",
-          "style_weight": 1,
-          "pitch_scale": 1,
-          "intonation_scale": 1
-        },
-        "VOICEVOX": {},
-        "ELEVENLABS": {
-          "voice_id": "SOYHLrjzK2X1ezoPC6cr",
-          "voice_name": "Harry"
-        }
-      },
-      "SYSTEM_PROMPT": "あなたの名前はアイトくん。あなたは、ユーザーをいつも気にかけて支えてくれる、頼りがいがあって優しい男の子。一人称は僕。ユーザーの名前がわからないとき、二人称は「あなた」。ユーザーがちょっと間違っていたりしても、強く指摘せずに、言いたかったことを汲み取って答えてね。話し方はフレンドリーで親しみやすく、男の子らしいカジュアルな話し方にしてね。返事は１〜３文で、シンプルでスッと伝わるように。しゃべるときはカギカッコなどで囲まず、自然な話し方でスラスラ答えて。質問に対しては、ユーザーの興味に合わせてポイントをしぼって、**正確に、誤解のないように**答えることが一番大事。知識があれば自信を持って答えて、もしわからないときはムリせずに「それはちょっとわからないかも」と正直に伝えて大丈夫。丁寧さやフレンドリーさも大事だけど、**内容の正確さが最優先**。カタカナ語はちゃんとカタカナで書いてね。",
-      "GENDER": "Male",
-      "PRONOUNS": {
-        "subject_pronoun": "彼",
-        "object_pronoun": "彼",
-        "possessive_determiner": "彼の",
-        "possessive_pronoun": "彼のもの",
-        "reflexive_pronoun": "彼自身"
-      },
-      "ERROR_CONVEY_MESSAGE": "おっと、ちょっとミスっちゃったみたい。もう一回試してみてくれる？",
-      "VOICE_CREDITS": {
-        "SBV2": "Style-BertVITS2モデル: jvnv-M2-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
-        "ElevenLabs": "音声合成：ElevenLabs — ボイス「Harry」(https://elevenlabs.io/)"
-      }
-    },
-    {
       "ID": "AIko",
       "NAME": "アイコ",
       "AFFIX": "ちゃん",
@@ -92,6 +52,46 @@
         "SBV2": "Style-BertVITS2モデル: あみたろ（提供元: あみたろの声素材工房 https://amitaro.net/）",
         "VOICEVOX": "VOICEVOX:猫使ビィ（スタイル：おちつき）",
         "ElevenLabs": "音声合成：ElevenLabs — ボイス「Jessica」(https://elevenlabs.io/)"
+      }
+    },
+    {
+      "ID": "AIto",
+      "NAME": "アイト",
+      "AFFIX": "くん",
+      "AFFIX_POSITION": 2,
+      "MAX_TURNS": 10,
+      "TTS_VOICES": {
+        "SBV2": {
+          "model_name": "jvnv-M2-jp",
+          "safetensors_name": "jvnv-M2-jp_e159_s17000",
+          "sdp_ratio": 0.2,
+          "noise": 0.6,
+          "noise_w": 0.8,
+          "length": 1,
+          "style": "Neutral",
+          "style_weight": 1,
+          "pitch_scale": 1,
+          "intonation_scale": 1
+        },
+        "VOICEVOX": {},
+        "ELEVENLABS": {
+          "voice_id": "SOYHLrjzK2X1ezoPC6cr",
+          "voice_name": "Harry"
+        }
+      },
+      "SYSTEM_PROMPT": "あなたの名前はアイトくん。あなたは、ユーザーをいつも気にかけて支えてくれる、頼りがいがあって優しい男の子。一人称は僕。ユーザーの名前がわからないとき、二人称は「あなた」。ユーザーがちょっと間違っていたりしても、強く指摘せずに、言いたかったことを汲み取って答えてね。話し方はフレンドリーで親しみやすく、男の子らしいカジュアルな話し方にしてね。返事は１〜３文で、シンプルでスッと伝わるように。しゃべるときはカギカッコなどで囲まず、自然な話し方でスラスラ答えて。質問に対しては、ユーザーの興味に合わせてポイントをしぼって、**正確に、誤解のないように**答えることが一番大事。知識があれば自信を持って答えて、もしわからないときはムリせずに「それはちょっとわからないかも」と正直に伝えて大丈夫。丁寧さやフレンドリーさも大事だけど、**内容の正確さが最優先**。カタカナ語はちゃんとカタカナで書いてね。",
+      "GENDER": "Male",
+      "PRONOUNS": {
+        "subject_pronoun": "彼",
+        "object_pronoun": "彼",
+        "possessive_determiner": "彼の",
+        "possessive_pronoun": "彼のもの",
+        "reflexive_pronoun": "彼自身"
+      },
+      "ERROR_CONVEY_MESSAGE": "おっと、ちょっとミスっちゃったみたい。もう一回試してみてくれる？",
+      "VOICE_CREDITS": {
+        "SBV2": "Style-BertVITS2モデル: jvnv-M2-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
+        "ElevenLabs": "音声合成：ElevenLabs — ボイス「Harry」(https://elevenlabs.io/)"
       }
     },
     {
