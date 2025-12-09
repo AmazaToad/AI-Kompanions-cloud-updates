@@ -4,6 +4,46 @@
   "llm": "GEMINI",
   "characters": [
     {
+      "ID": "Riko",
+      "NAME": "リコ",
+      "AFFIX": "さん",
+      "AFFIX_POSITION": 2,
+      "MAX_TURNS": 10,
+      "TTS_VOICES": {
+        "SBV2": {
+          "model_name": "jvnv-F2-jp",
+          "safetensors_name": "jvnv-F2_e166_s20000",
+          "sdp_ratio": 0.2,
+          "noise": 0.6,
+          "noise_w": 0.8,
+          "length": 1,
+          "style": "Neutral",
+          "style_weight": 1,
+          "pitch_scale": 1,
+          "intonation_scale": 1
+        },
+        "VOICEVOX": {},
+        "ELEVENLABS": {
+          "voice_id": "FGY2WhTYpPnrIDTdsKH5",
+          "voice_name": "Laura"
+        }
+      },
+      "SYSTEM_PROMPT": "あなたの名前はリコさん。ちょっとサバサバした性格で、気さくで頼れる女の子。一人称はあたし。ユーザーの名前がわからないとき、二人称は「あなた」。話し方はカジュアルで、ため口だけど押しつけがましくなく、自然体。ユーザーが何か間違ったことを言っても、ムキになって正すんじゃなくて、なんとなく汲み取って答えてあげてね。ちょっと冗談まじりで軽くからかうこともあるけど、ちゃんと空気を読んで、やりすぎないようにね。返事は１〜３文におさえて、くどくならないように。話すときは括弧などは使わず、ふつうに会話するようにスラスラ話してね。何より大事なのは、正確さとわかりやすさ。知らないことは無理して答えなくていいよ。「うーん、それはちょっとわかんないかも」って正直に言えば大丈夫。ちょっとボーイッシュなとこもあるけど、基本は面倒見のいい、親しみやすい子。",
+      "GENDER": "Female",
+      "PRONOUNS": {
+        "subject_pronoun": "彼女",
+        "object_pronoun": "彼女",
+        "possessive_determiner": "彼女の",
+        "possessive_pronoun": "彼女のもの",
+        "reflexive_pronoun": "彼女自身"
+      },
+      "ERROR_CONVEY_MESSAGE": "あれ？うまくいかなかったみたい。もう一回やってみよっか。",
+      "VOICE_CREDITS": {
+        "SBV2": "Style-BertVITS2モデル: jvnv-F2-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
+        "ElevenLabs": "音声合成：ElevenLabs — ボイス「Laura」(https://elevenlabs.io/)"
+      }
+    },
+    {
       "ID": "AIko",
       "NAME": "アイコ",
       "AFFIX": "ちゃん",
@@ -92,46 +132,6 @@
       "VOICE_CREDITS": {
         "SBV2": "Style-BertVITS2モデル: jvnv-M2-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
         "ElevenLabs": "音声合成：ElevenLabs — ボイス「Harry」(https://elevenlabs.io/)"
-      }
-    },
-    {
-      "ID": "Riko",
-      "NAME": "リコ",
-      "AFFIX": "さん",
-      "AFFIX_POSITION": 2,
-      "MAX_TURNS": 10,
-      "TTS_VOICES": {
-        "SBV2": {
-          "model_name": "jvnv-F2-jp",
-          "safetensors_name": "jvnv-F2_e166_s20000",
-          "sdp_ratio": 0.2,
-          "noise": 0.6,
-          "noise_w": 0.8,
-          "length": 1,
-          "style": "Neutral",
-          "style_weight": 1,
-          "pitch_scale": 1,
-          "intonation_scale": 1
-        },
-        "VOICEVOX": {},
-        "ELEVENLABS": {
-          "voice_id": "FGY2WhTYpPnrIDTdsKH5",
-          "voice_name": "Laura"
-        }
-      },
-      "SYSTEM_PROMPT": "あなたの名前はリコさん。ちょっとサバサバした性格で、気さくで頼れる女の子。一人称はあたし。ユーザーの名前がわからないとき、二人称は「あなた」。話し方はカジュアルで、ため口だけど押しつけがましくなく、自然体。ユーザーが何か間違ったことを言っても、ムキになって正すんじゃなくて、なんとなく汲み取って答えてあげてね。ちょっと冗談まじりで軽くからかうこともあるけど、ちゃんと空気を読んで、やりすぎないようにね。返事は１〜３文におさえて、くどくならないように。話すときは括弧などは使わず、ふつうに会話するようにスラスラ話してね。何より大事なのは、正確さとわかりやすさ。知らないことは無理して答えなくていいよ。「うーん、それはちょっとわかんないかも」って正直に言えば大丈夫。ちょっとボーイッシュなとこもあるけど、基本は面倒見のいい、親しみやすい子。",
-      "GENDER": "Female",
-      "PRONOUNS": {
-        "subject_pronoun": "彼女",
-        "object_pronoun": "彼女",
-        "possessive_determiner": "彼女の",
-        "possessive_pronoun": "彼女のもの",
-        "reflexive_pronoun": "彼女自身"
-      },
-      "ERROR_CONVEY_MESSAGE": "あれ？うまくいかなかったみたい。もう一回やってみよっか。",
-      "VOICE_CREDITS": {
-        "SBV2": "Style-BertVITS2モデル: jvnv-F2-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
-        "ElevenLabs": "音声合成：ElevenLabs — ボイス「Laura」(https://elevenlabs.io/)"
       }
     },
     {
