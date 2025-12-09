@@ -1,6 +1,6 @@
 {
-  "version": "2.0",
   "tts": "SBV2",
+  "version": "2.0",
   "llm": "GEMINI",
   "characters": [
     {
