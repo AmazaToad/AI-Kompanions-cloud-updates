@@ -5,8 +5,8 @@
   "characters": [
     {
       "ID": "AIko",
-      "AFFIX": "ちゃん",
       "NAME": "アイコ",
+      "AFFIX": "ちゃん",
       "AFFIX_POSITION": 2,
       "MAX_TURNS": 10,
       "TTS_VOICES": {
