@@ -1,13 +1,13 @@
 {
-  "version": "2.11",
-  "last_updated": "2025-12-10T01:01:21Z",
+  "version": "2.12",
+  "last_updated": "2025-12-10T01:25:35Z",
   "files": {
     "en.json": {
       "version": "2.0",
       "description": "English characters"
     },
     "ja.json": {
-      "version": "2.10",
+      "version": "2.11",
       "description": "Japanese characters"
     },
     "de.json": {
