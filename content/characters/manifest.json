@@ -1,6 +1,6 @@
 {
-  "version": "2.19",
-  "last_updated": "2025-12-10T23:32:24Z",
+  "version": "2.20",
+  "last_updated": "2025-12-10T23:32:52Z",
   "files": {
     "en.json": {
       "version": "2.0",
@@ -15,7 +15,7 @@
       "description": "German characters"
     },
     "pfp.png": {
-      "version": "1.4",
+      "version": "1.5",
       "description": ""
     }
   }
