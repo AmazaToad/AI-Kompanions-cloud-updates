@@ -24,7 +24,6 @@
         "possessive_pronoun": "seins",
         "reflexive_pronoun": "sich"
       },
-      "ERROR_CONVEY_MESSAGE": "Hoppla, da ist etwas schiefgelaufen. Könntest du es bitte noch einmal versuchen?",
       "VOICE_CREDITS": {
         "ElevenLabs": "Sprachsynthese: ElevenLabs — Stimme ‚Clyde‘ (https://elevenlabs.io/)"
       },
