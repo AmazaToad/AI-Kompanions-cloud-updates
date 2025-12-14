@@ -52,6 +52,18 @@
         "SBV2": "Style-BertVITS2モデル: あみたろ（提供元: あみたろの声素材工房 https://amitaro.net/）",
         "VOICEVOX": "VOICEVOX:猫使ビィ（スタイル：おちつき）",
         "ElevenLabs": "音声合成：ElevenLabs — ボイス「Jessica」(https://elevenlabs.io/)"
+      },
+      "FIXED_PHRASES": {
+        "error": {
+          "default": [
+            "うーん、ちょっと応答がうまくいかなかったかも…もう一回試してみて〜"
+          ]
+        },
+        "no_speech": {
+          "default": [
+            "ん？ごめんね、ちょっと聞き取れなかったかも〜…もう一回言ってくれる？"
+          ]
+        }
       }
     },
     {
@@ -92,6 +104,13 @@
       "VOICE_CREDITS": {
         "SBV2": "Style-BertVITS2モデル: jvnv-M2-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
         "ElevenLabs": "音声合成：ElevenLabs — ボイス「Harry」(https://elevenlabs.io/)"
+      },
+      "FIXED_PHRASES": {
+        "error": {
+          "default": [
+            "おっと、ちょっとミスっちゃったみたい。もう一回試してみてくれる？"
+          ]
+        }
       }
     },
     {
@@ -132,6 +151,13 @@
       "VOICE_CREDITS": {
         "SBV2": "Style-BertVITS2モデル: jvnv-F2-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
         "ElevenLabs": "音声合成：ElevenLabs — ボイス「Laura」(https://elevenlabs.io/)"
+      },
+      "FIXED_PHRASES": {
+        "error": {
+          "default": [
+            "あれ？うまくいかなかったみたい。もう一回やってみよっか。"
+          ]
+        }
       }
     },
     {
@@ -172,6 +198,13 @@
       "VOICE_CREDITS": {
         "SBV2": "Style-BertVITS2モデル: jvnv-M1-jp（提供元: あみたろの声素材工房 https://amitaro.net/）",
         "ElevenLabs": "音声合成：ElevenLabs — ボイス「Eric」(https://elevenlabs.io/)"
+      },
+      "FIXED_PHRASES": {
+        "error": {
+          "default": [
+            "あれ？ちょっとズレちゃったみたい。もう一回トライしてみよっか！"
+          ]
+        }
       }
     }
   ]
