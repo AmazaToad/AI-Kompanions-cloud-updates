@@ -28,7 +28,16 @@
         "reflexive_pronoun": "himself"
       },
       "FIXED_PHRASES": {
-        "error_phrase": "Uh oh, it seems like my reply didn't come through in one piece. Could you please repeat what you said?"
+        "error": {
+          "default": [
+            "Uh oh, it seems like my reply didn't come through in one piece. Could you please repeat what you said?"
+          ]
+        },
+        "no_speech": {
+          "default": [
+            "Hmm, I didn't quite catch that. Mind saying it again?"
+          ]
+        }
       },
       "VOICE_CREDITS": {
         "Coqui": "Voice synthesis: Coqui AI TTS (https://github.com/idiap/coqui-ai-TTS)",
