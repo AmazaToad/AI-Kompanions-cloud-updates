@@ -27,6 +27,18 @@
       "ERROR_CONVEY_MESSAGE": "Hoppla, da ist etwas schiefgelaufen. Könntest du es bitte noch einmal versuchen?",
       "VOICE_CREDITS": {
         "ElevenLabs": "Sprachsynthese: ElevenLabs — Stimme ‚Clyde‘ (https://elevenlabs.io/)"
+      },
+      "FIXED_PHRASES": {
+        "error": {
+          "default": [
+            "Hoppla, da ist etwas schiefgelaufen. Könntest du es bitte noch einmal versuchen?"
+          ]
+        },
+        "no_speech": {
+          "default": [
+            "Hm, das hab ich leider nicht richtig verstanden. Könntest du es bitte wiederholen?"
+          ]
+        }
       }
     }
   ]
