@@ -1,15 +1,15 @@
 {
-  "tts": "SBV2",
-  "version": "2.0",
-  "llm": "GEMINI",
+  "version": "3.1",
   "characters": [
     {
       "ID": "AIko",
       "NAME": "アイコ",
       "AFFIX": "ちゃん",
       "AFFIX_POSITION": 2,
-      "MAX_TURNS": 10,
-      "TTS_VOICES": {
+      "DEFAULT_MAX_TURNS": 10,
+      "DEFAULT_TTS": "SBV2",
+      "DEFAULT_LLM": "GROQ",
+      "DEFAULT_TTS_VOICES": {
         "SBV2": {
           "model_name": "amitaro",
           "safetensors_name": "amitaro",
@@ -70,8 +70,10 @@
       "NAME": "アイト",
       "AFFIX": "くん",
       "AFFIX_POSITION": 2,
-      "MAX_TURNS": 10,
-      "TTS_VOICES": {
+      "DEFAULT_MAX_TURNS": 10,
+      "DEFAULT_TTS": "SBV2",
+      "DEFAULT_LLM": "GROQ",
+      "DEFAULT_TTS_VOICES": {
         "SBV2": {
           "model_name": "jvnv-M2-jp",
           "safetensors_name": "jvnv-M2-jp_e159_s17000",
@@ -116,8 +118,10 @@
       "NAME": "リコ",
       "AFFIX": "さん",
       "AFFIX_POSITION": 2,
-      "MAX_TURNS": 10,
-      "TTS_VOICES": {
+      "DEFAULT_MAX_TURNS": 10,
+      "DEFAULT_TTS": "SBV2",
+      "DEFAULT_LLM": "GROQ",
+      "DEFAULT_TTS_VOICES": {
         "SBV2": {
           "model_name": "jvnv-F2-jp",
           "safetensors_name": "jvnv-F2_e166_s20000",
@@ -162,8 +166,10 @@
       "NAME": "ハルキ",
       "AFFIX": "くん",
       "AFFIX_POSITION": 2,
-      "MAX_TURNS": 10,
-      "TTS_VOICES": {
+      "DEFAULT_MAX_TURNS": 10,
+      "DEFAULT_TTS": "SBV2",
+      "DEFAULT_LLM": "GROQ",
+      "DEFAULT_TTS_VOICES": {
         "SBV2": {
           "model_name": "jvnv-M1-jp",
           "safetensors_name": "jvnv-M1-jp_e158_s14000",
