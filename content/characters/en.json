@@ -1,15 +1,15 @@
 {
-  "version": "2.0",
-  "tts": "COQUI",
-  "llm": "GEMINI",
+  "version": "3.1",
   "characters": [
     {
       "ID": "AIbro",
       "NAME": "Aibro",
       "AFFIX": null,
       "AFFIX_POSITION": 0,
-      "MAX_TURNS": 10,
-      "TTS_VOICES": {
+      "DEFAULT_MAX_TURNS": 10,
+      "DEFAULT_TTS": "COQUI",
+      "DEFAULT_LLM": "GROQ",
+      "DEFAULT_TTS_VOICES": {
         "COQUI": {
           "voice": "p234"
         },
