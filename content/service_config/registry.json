@@ -1,0 +1,133 @@
+{
+  "version": "2.0",
+  "services": {
+    "OPENROUTER": {
+      "service_id": "OPENROUTER",
+      "display_name": "OpenRouter",
+      "product_name": null,
+      "service_type": "llm",
+      "requires_key": true,
+      "execution_location": "cloud",
+      "key_pattern": "^sk-or-v1-[a-fA-F0-9]{64}$",
+      "key_prefix": "sk-or-v1-",
+      "key_length": 75,
+      "supported_languages": [
+        "*"
+      ],
+      "capabilities": [
+        "llm",
+        "vision"
+      ],
+      "free_tier": true,
+      "default_model": "meta-llama/llama-3.3-70b-instruct",
+      "validation_endpoint": "https://openrouter.ai/api/v1/auth/key",
+      "description": "Access multiple AI models through one API. Great for flexibility.",
+      "tips": [
+        "One key, many models",
+        "Free models available",
+        "Pay-per-use pricing"
+      ],
+      "key_instructions": "Create an account at openrouter.ai and get your API key from the Keys page."
+    },
+    "OPENAI": {
+      "service_id": "OPENAI",
+      "display_name": "OpenAI",
+      "product_name": "ChatGPT",
+      "service_type": "llm",
+      "requires_key": true,
+      "execution_location": "cloud",
+      "key_pattern": "^sk-[a-zA-Z0-9-_]{20,}$",
+      "key_prefix": "sk-",
+      "key_length": 51,
+      "supported_languages": [
+        "*"
+      ],
+      "capabilities": [
+        "llm",
+        "vision",
+        "stt"
+      ],
+      "free_tier": false,
+      "default_model": "gpt-4o-mini",
+      "validation_endpoint": "https://api.openai.com/v1/models",
+      "description": "ChatGPT's underlying models. Industry standard for AI assistants.",
+      "warning": "Paid service - requires billing setup.",
+      "tips": [
+        "High quality responses",
+        "Excellent language support"
+      ],
+      "key_instructions": "Go to platform.openai.com, create an account, add billing, then generate an API key."
+    },
+    "MISTRAL": {
+      "service_id": "MISTRAL",
+      "display_name": "Mistral AI",
+      "product_name": null,
+      "service_type": "llm",
+      "requires_key": true,
+      "execution_location": "cloud",
+      "key_pattern": "^[a-zA-Z0-9]{32}$",
+      "key_length": 32,
+      "supported_languages": [
+        "*"
+      ],
+      "capabilities": [
+        "llm",
+        "vision",
+        "stt"
+      ],
+      "free_tier": false,
+      "default_model": "mistral-large-latest",
+      "validation_endpoint": "https://api.mistral.ai/v1/models",
+      "description": "European AI with efficient, high-performance models.",
+      "tips": [
+        "Fast inference",
+        "Good code generation"
+      ],
+      "key_instructions": "Sign up at console.mistral.ai and create an API key."
+    },
+    "SBV2": {
+      "service_id": "SBV2",
+      "display_name": "Style-BertVITS2",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": false,
+      "execution_location": "local",
+      "supported_languages": ["ja"],
+      "recommended_languages": ["ja"]
+    },
+    "VOICEVOX": {
+      "service_id": "VOICEVOX",
+      "display_name": "VOICEVOX",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": false,
+      "execution_location": "local",
+      "supported_languages": ["ja"],
+      "recommended_languages": ["ja"]
+    },
+    "COQUI": {
+      "service_id": "COQUI",
+      "display_name": "Coqui TTS",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": false,
+      "execution_location": "local",
+      "supported_languages": ["en"],
+      "recommended_languages": ["en"]
+    },
+    "ELEVENLABS": {
+      "service_id": "ELEVENLABS",
+      "display_name": "ElevenLabs",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": true,
+      "execution_location": "cloud",
+      "key_pattern": "^sk_[a-zA-Z0-9_-]{48}$",
+      "key_prefix": "sk_",
+      "key_length": 51,
+      "validation_endpoint": "https://api.elevenlabs.io/v1/voices",
+      "supported_languages": ["en", "ja", "de"],
+      "recommended_languages": ["en", "de"]
+    }
+  }
+}

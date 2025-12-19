@@ -1,0 +1,79 @@
+{
+  "version": "3.0",
+  "description": "Dynamic API key validation steps for each service",
+
+  "validators": {
+    "OPENROUTER": {
+      "steps": [
+        {
+          "action": "http_request",
+          "method": "GET",
+          "url": "https://openrouter.ai/api/v1/auth/key",
+          "headers": {
+            "Authorization": "Bearer {key}"
+          },
+          "timeout": 10
+        },
+        {
+          "action": "check_status",
+          "success_codes": [200]
+        }
+      ]
+    },
+
+    "OPENAI": {
+      "steps": [
+        {
+          "action": "http_request",
+          "method": "GET",
+          "url": "https://api.openai.com/v1/models",
+          "headers": {
+            "Authorization": "Bearer {key}"
+          },
+          "timeout": 10
+        },
+        {
+          "action": "check_status",
+          "success_codes": [200]
+        }
+      ]
+    },
+
+    "MISTRAL": {
+      "steps": [
+        {
+          "action": "http_request",
+          "method": "GET",
+          "url": "https://api.mistral.ai/v1/models",
+          "headers": {
+            "Authorization": "Bearer {key}"
+          },
+          "timeout": 10
+        },
+        {
+          "action": "check_status",
+          "success_codes": [200]
+        }
+      ]
+    },
+
+    "ELEVENLABS": {
+      "steps": [
+        {
+          "action": "http_request",
+          "method": "GET",
+          "url": "https://api.elevenlabs.io/v1/voices",
+          "headers": {
+            "Accept": "application/json",
+            "xi-api-key": "{key}"
+          },
+          "timeout": 10
+        },
+        {
+          "action": "check_status",
+          "success_codes": [200]
+        }
+      ]
+    }
+  }
+}
