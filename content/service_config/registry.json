@@ -14,7 +14,6 @@
       "free_tier": true,
       "key_shown_once": true,
       "default_model": "meta-llama/llama-3.3-70b-instruct",
-      "validation_endpoint": "https://openrouter.ai/api/v1/auth/key",
       "description": "Access multiple AI models through one API. Great for flexibility."
     },
     "OPENAI": {
@@ -30,7 +29,6 @@
       "free_tier": false,
       "key_shown_once": true,
       "default_model": "gpt-4o-mini",
-      "validation_endpoint": "https://api.openai.com/v1/models",
       "description": "ChatGPT's underlying models. Industry standard for AI assistants.",
       "warning": "Paid service - requires billing setup."
     },
@@ -70,7 +68,6 @@
       "key_pattern": "^sk_[a-zA-Z0-9_-]{48}$",
       "key_prefix": "sk_",
       "key_length": 51,
-      "validation_endpoint": "https://api.elevenlabs.io/v1/voices",
       "supported_languages": ["en", "ja", "de"],
       "recommended_languages": ["en", "de"],
       "free_tier": true,
@@ -78,4 +75,3 @@
     }
   }
 }
-

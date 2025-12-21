@@ -4,7 +4,7 @@
   "recipes": {
     "llm": {
       "openai_compatible": {
-        "description": "OpenAI-compatible chat completions API (works with OpenRouter, OpenAI, etc.)",
+        "description": "OpenAI-compatible chat completions API",
         "steps": [
           {
             "action": "get_api_key",
@@ -23,51 +23,7 @@
             "params": {
               "method": "POST",
               "url": "{base_url}/chat/completions",
-              "headers": {
-                "Authorization": "Bearer {api_key}",
-                "Content-Type": "application/json"
-              },
-              "body": {
-                "model": "{model}",
-                "messages": "{messages}"
-              },
-              "timeout": 60
-            }
-          },
-          {
-            "action": "extract_json_field",
-            "params": {
-              "path": "choices.0.message.content"
-            }
-          }
-        ]
-      },
-      "openrouter_compatible": {
-        "description": "OpenRouter API with additional headers for attribution",
-        "steps": [
-          {
-            "action": "get_api_key",
-            "params": {
-              "required": true
-            }
-          },
-          {
-            "action": "build_chat_messages",
-            "params": {
-              "format": "openai"
-            }
-          },
-          {
-            "action": "http_request",
-            "params": {
-              "method": "POST",
-              "url": "{base_url}/chat/completions",
-              "headers": {
-                "Authorization": "Bearer {api_key}",
-                "Content-Type": "application/json",
-                "HTTP-Referer": "https://ai-kompanions.app",
-                "X-Title": "AI Kompanions"
-              },
+              "headers": "{headers}",
               "body": {
                 "model": "{model}",
                 "messages": "{messages}"
@@ -97,10 +53,7 @@
           },
           {
             "action": "get_voice_config",
-            "params": {
-              "default_voice_id": "JBFqnCBsd6RMkjVDRZzb",
-              "default_model_id": "eleven_multilingual_v2"
-            }
+            "params": {}
           },
           {
             "action": "create_temp_file",
@@ -121,10 +74,7 @@
               "body": {
                 "text": "{text}",
                 "model_id": "{model_id}",
-                "voice_settings": {
-                  "stability": 0.5,
-                  "similarity_boost": 0.75
-                }
+                "voice_settings": "{voice_settings}"
               },
               "timeout": 30,
               "response_type": "binary"
@@ -164,13 +114,23 @@
   "service_mapping": {
     "OPENROUTER": {
       "type": "llm",
-      "recipe": "openrouter_compatible",
-      "base_url": "https://openrouter.ai/api/v1"
+      "recipe": "openai_compatible",
+      "base_url": "https://openrouter.ai/api/v1",
+      "headers": {
+        "Authorization": "Bearer {api_key}",
+        "Content-Type": "application/json",
+        "HTTP-Referer": "https://ai-kompanions.app",
+        "X-Title": "AI Kompanions"
+      }
     },
     "OPENAI": {
       "type": "llm",
       "recipe": "openai_compatible",
-      "base_url": "https://api.openai.com/v1"
+      "base_url": "https://api.openai.com/v1",
+      "headers": {
+        "Authorization": "Bearer {api_key}",
+        "Content-Type": "application/json"
+      }
     },
     "ELEVENLABS": {
       "type": "tts",
