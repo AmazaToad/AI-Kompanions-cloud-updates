@@ -1,0 +1,7 @@
+{
+  "files": {
+    "registry.json": {"version": "1.0"},
+    "service_validators.json": {"version": "1.0"},
+    "service_recipes.json": {"version": "1.0"}
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "services": {
+    "OPENROUTER": {
+      "display_name": "OpenRouter",
+      "product_name": null,
+      "service_type": "llm",
+      "requires_key": true,
+      "execution_location": "cloud",
+      "key_pattern": "^sk-or-v1-[a-fA-F0-9]{64}$",
+      "key_prefix": "sk-or-v1-",
+      "key_length": 75,
+      "supported_languages": ["*"],
+      "recommended": true,
+      "free_tier": true,
+      "key_shown_once": true,
+      "default_model": "meta-llama/llama-3.3-70b-instruct",
+      "description": "Access multiple AI models through one API. Great for flexibility."
+    },
+    "OPENAI": {
+      "display_name": "OpenAI",
+      "product_name": "ChatGPT",
+      "service_type": "llm",
+      "requires_key": true,
+      "execution_location": "cloud",
+      "key_pattern": "^sk-[a-zA-Z0-9-_]{20,}$",
+      "key_prefix": "sk-",
+      "key_length": 51,
+      "supported_languages": ["*"],
+      "free_tier": false,
+      "key_shown_once": true,
+      "default_model": "gpt-4o-mini",
+      "description": "ChatGPT's underlying models. Industry standard for AI assistants.",
+      "warning": "Paid service - requires billing setup."
+    },
+    "SBV2": {
+      "display_name": "Style-BertVITS2",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": false,
+      "execution_location": "local",
+      "supported_languages": ["ja"],
+      "recommended_languages": ["ja"]
+    },
+    "VOICEVOX": {
+      "display_name": "VOICEVOX",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": false,
+      "execution_location": "local",
+      "supported_languages": ["ja"],
+      "recommended_languages": ["ja"]
+    },
+    "COQUI": {
+      "display_name": "Coqui TTS",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": false,
+      "execution_location": "local",
+      "supported_languages": ["en"],
+      "recommended_languages": ["en"]
+    },
+    "ELEVENLABS": {
+      "display_name": "ElevenLabs",
+      "product_name": null,
+      "service_type": "tts",
+      "requires_key": true,
+      "execution_location": "cloud",
+      "key_pattern": "^sk_[a-zA-Z0-9_-]{48}$",
+      "key_prefix": "sk_",
+      "key_length": 51,
+      "supported_languages": ["en", "ja", "de"],
+      "recommended_languages": ["en", "de"],
+      "free_tier": true,
+      "key_shown_once": true
+    }
+  }
+}
