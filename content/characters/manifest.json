@@ -1,22 +1,27 @@
 {
-  "version": "3.2",
-  "last_updated": "2025-12-15T15:36:14Z",
-  "files": {
-    "en.json": {
-      "version": "3.1",
-      "description": "English characters"
+  "version": "4.0",
+  "last_updated": "2025-12-21T15:08:30.957819Z",
+  "languages": {
+    "en": {
+      "display_name": "English",
+      "characters": [
+        "AIbro"
+      ]
     },
-    "ja.json": {
-      "version": "3.1",
-      "description": "Japanese characters"
+    "ja": {
+      "display_name": "日本語",
+      "characters": [
+        "AIko",
+        "AIto",
+        "Riko",
+        "Haruki"
+      ]
     },
-    "de.json": {
-      "version": "3.1",
-      "description": "German characters"
-    },
-    "manifest.json": {
-      "version": "1.0",
-      "description": ""
+    "de": {
+      "display_name": "Deutsch",
+      "characters": [
+        "Max"
+      ]
     }
   }
 }
