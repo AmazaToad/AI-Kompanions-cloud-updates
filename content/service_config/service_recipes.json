@@ -1,0 +1,192 @@
+{
+  "description": "Unified recipe definitions for LLM and TTS API execution",
+
+  "recipes": {
+    "llm": {
+      "openai_compatible": {
+        "description": "OpenAI-compatible chat completions API (works with OpenRouter, OpenAI, etc.)",
+        "steps": [
+          {
+            "action": "get_api_key",
+            "params": {
+              "required": true
+            }
+          },
+          {
+            "action": "build_chat_messages",
+            "params": {
+              "format": "openai"
+            }
+          },
+          {
+            "action": "http_request",
+            "params": {
+              "method": "POST",
+              "url": "{base_url}/chat/completions",
+              "headers": {
+                "Authorization": "Bearer {api_key}",
+                "Content-Type": "application/json"
+              },
+              "body": {
+                "model": "{model}",
+                "messages": "{messages}"
+              },
+              "timeout": 60
+            }
+          },
+          {
+            "action": "extract_json_field",
+            "params": {
+              "path": "choices.0.message.content"
+            }
+          }
+        ]
+      },
+      "openrouter_compatible": {
+        "description": "OpenRouter API with additional headers for attribution",
+        "steps": [
+          {
+            "action": "get_api_key",
+            "params": {
+              "required": true
+            }
+          },
+          {
+            "action": "build_chat_messages",
+            "params": {
+              "format": "openai"
+            }
+          },
+          {
+            "action": "http_request",
+            "params": {
+              "method": "POST",
+              "url": "{base_url}/chat/completions",
+              "headers": {
+                "Authorization": "Bearer {api_key}",
+                "Content-Type": "application/json",
+                "HTTP-Referer": "https://ai-kompanions.app",
+                "X-Title": "AI Kompanions"
+              },
+              "body": {
+                "model": "{model}",
+                "messages": "{messages}"
+              },
+              "timeout": 60
+            }
+          },
+          {
+            "action": "extract_json_field",
+            "params": {
+              "path": "choices.0.message.content"
+            }
+          }
+        ]
+      }
+    },
+
+    "tts": {
+      "elevenlabs_api": {
+        "description": "ElevenLabs Text-to-Speech API",
+        "steps": [
+          {
+            "action": "get_api_key",
+            "params": {
+              "required": true
+            }
+          },
+          {
+            "action": "get_voice_config",
+            "params": {
+              "default_voice_id": "JBFqnCBsd6RMkjVDRZzb",
+              "default_model_id": "eleven_multilingual_v2"
+            }
+          },
+          {
+            "action": "create_temp_file",
+            "params": {
+              "suffix": ".mp3"
+            }
+          },
+          {
+            "action": "http_request",
+            "params": {
+              "method": "POST",
+              "url": "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}",
+              "headers": {
+                "Accept": "audio/mpeg",
+                "Content-Type": "application/json",
+                "xi-api-key": "{api_key}"
+              },
+              "body": {
+                "text": "{text}",
+                "model_id": "{model_id}",
+                "voice_settings": {
+                  "stability": 0.5,
+                  "similarity_boost": 0.75
+                }
+              },
+              "timeout": 30,
+              "response_type": "binary"
+            }
+          },
+          {
+            "action": "save_binary_response",
+            "params": {}
+          },
+          {
+            "action": "convert_audio",
+            "params": {
+              "from_format": "mp3",
+              "to_format": "wav"
+            }
+          }
+        ]
+      },
+      "huggingface_space": {
+        "description": "TTS via HuggingFace Space (SBV2, COQUI, VOICEVOX)",
+        "steps": [
+          {
+            "action": "hf_space_tts",
+            "params": {
+              "api_name": "/tts_only"
+            }
+          },
+          {
+            "action": "verify_audio_file",
+            "params": {}
+          }
+        ]
+      }
+    }
+  },
+
+  "service_mapping": {
+    "OPENROUTER": {
+      "type": "llm",
+      "recipe": "openrouter_compatible",
+      "base_url": "https://openrouter.ai/api/v1"
+    },
+    "OPENAI": {
+      "type": "llm",
+      "recipe": "openai_compatible",
+      "base_url": "https://api.openai.com/v1"
+    },
+    "ELEVENLABS": {
+      "type": "tts",
+      "recipe": "elevenlabs_api"
+    },
+    "SBV2": {
+      "type": "tts",
+      "recipe": "huggingface_space"
+    },
+    "COQUI": {
+      "type": "tts",
+      "recipe": "huggingface_space"
+    },
+    "VOICEVOX": {
+      "type": "tts",
+      "recipe": "huggingface_space"
+    }
+  }
+}

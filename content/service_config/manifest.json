@@ -1,19 +1,7 @@
 {
-  "version": "2.0",
-  "last_updated": "2024-12-20T16:00:00Z",
   "files": {
-    "registry.json": {
-      "version": "2.0",
-      "description": "Service registry and configuration"
-    },
-    "service_validators.json": {
-      "version": "2.0",
-      "description": "API key validation rules"
-    },
-    "tts_recipes.json": {
-      "version": "1.0",
-      "description": "TTS recipe rules"
-    }
-  },
-  "last_sync": "2025-12-18T01:29:48.444751"
+    "registry.json": {"version": "1.0"},
+    "service_validators.json": {"version": "1.0"},
+    "service_recipes.json": {"version": "1.0"}
+  }
 }
