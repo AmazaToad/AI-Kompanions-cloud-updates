@@ -34,20 +34,6 @@
       "description": "ChatGPT's underlying models. Industry standard for AI assistants.",
       "warning": "Paid service - requires billing setup."
     },
-    "MISTRAL": {
-      "display_name": "Mistral AI",
-      "product_name": null,
-      "service_type": "llm",
-      "requires_key": true,
-      "execution_location": "cloud",
-      "key_pattern": "^[a-zA-Z0-9]{32}$",
-      "key_length": 32,
-      "supported_languages": ["*"],
-      "free_tier": false,
-      "default_model": "mistral-large-latest",
-      "validation_endpoint": "https://api.mistral.ai/v1/models",
-      "description": "European AI with efficient, high-performance models."
-    },
     "SBV2": {
       "display_name": "Style-BertVITS2",
       "product_name": null,
@@ -92,3 +78,4 @@
     }
   }
 }
+
