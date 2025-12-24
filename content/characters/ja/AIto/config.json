@@ -50,7 +50,7 @@
   "fixed_phrases": {
     "error": {
       "default": [
-        "おっと、ちょっとミスっちゃったみたい。もう一回試してみてくれる？"
+        "おっと、ちょっと応答がミスっちゃったみたい。もう一回試してみてくれる？"
       ]
     }
   },
@@ -61,4 +61,5 @@
     "models_2d": "assets/models/2d/",
     "models_3d": "assets/models/3d/"
   }
+
 }
