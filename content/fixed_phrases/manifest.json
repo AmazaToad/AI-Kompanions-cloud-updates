@@ -1,11 +1,11 @@
 {
-  "version": "1.2",
+  "version": "1.1",
   "description": "Fixed phrase audio files for characters to avoid TTS service costs",
   "structure": {
     "languages": [
+      "de",
       "en",
-      "ja",
-      "de"
+      "ja"
     ],
     "phrase_types": [
       "error_phrase",
@@ -13,114 +13,246 @@
     ]
   },
   "files": {
+    "de/Max/ELEVENLABS/error_phrase.wav": {
+      "version": "1.1",
+      "size": 380204,
+      "language": "de",
+      "character": "Max",
+      "service": "ELEVENLABS",
+      "phrase_type": "error"
+    },
+    "de/Max/ELEVENLABS/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 417068,
+      "language": "de",
+      "character": "Max",
+      "service": "ELEVENLABS",
+      "phrase_type": "no_speech"
+    },
     "en/AIbro/COQUI/error_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 250988,
       "language": "en",
       "character": "AIbro",
       "service": "COQUI",
       "phrase_type": "error"
     },
+    "en/AIbro/COQUI/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 149612,
+      "language": "en",
+      "character": "AIbro",
+      "service": "COQUI",
+      "phrase_type": "no_speech"
+    },
     "en/AIbro/ELEVENLABS/error_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 511532,
       "language": "en",
       "character": "AIbro",
       "service": "ELEVENLABS",
       "phrase_type": "error"
     },
-    "ja/AIko/SBV2/error_phrase.wav": {
+    "en/AIbro/ELEVENLABS/no_speech_phrase.wav": {
       "version": "1.1",
-      "size": 0,
-      "language": "ja",
-      "character": "AIko",
-      "service": "SBV2",
-      "phrase_type": "error"
-    },
-    "ja/AIko/VOICEVOX/error_phrase.wav": {
-      "version": "1.1",
-      "size": 0,
-      "language": "ja",
-      "character": "AIko",
-      "service": "VOICEVOX",
-      "phrase_type": "error"
+      "size": 317996,
+      "language": "en",
+      "character": "AIbro",
+      "service": "ELEVENLABS",
+      "phrase_type": "no_speech"
     },
     "ja/AIko/ELEVENLABS/error_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 380204,
       "language": "ja",
       "character": "AIko",
       "service": "ELEVENLABS",
       "phrase_type": "error"
     },
-    "ja/AIto/SBV2/error_phrase.wav": {
+    "ja/AIko/ELEVENLABS/no_speech_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 437804,
       "language": "ja",
-      "character": "AIto",
+      "character": "AIko",
+      "service": "ELEVENLABS",
+      "phrase_type": "no_speech"
+    },
+    "ja/AIko/SBV2/error_phrase.wav": {
+      "version": "1.1",
+      "size": 459820,
+      "language": "ja",
+      "character": "AIko",
       "service": "SBV2",
       "phrase_type": "error"
     },
+    "ja/AIko/SBV2/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 431148,
+      "language": "ja",
+      "character": "AIko",
+      "service": "SBV2",
+      "phrase_type": "no_speech"
+    },
+    "ja/AIko/VOICEVOX/error_phrase.wav": {
+      "version": "1.1",
+      "size": 255532,
+      "language": "ja",
+      "character": "AIko",
+      "service": "VOICEVOX",
+      "phrase_type": "error"
+    },
+    "ja/AIko/VOICEVOX/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 287276,
+      "language": "ja",
+      "character": "AIko",
+      "service": "VOICEVOX",
+      "phrase_type": "no_speech"
+    },
     "ja/AIto/ELEVENLABS/error_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 417068,
       "language": "ja",
       "character": "AIto",
       "service": "ELEVENLABS",
       "phrase_type": "error"
     },
     "ja/AIto/ELEVENLABS/no_speech_phrase.wav": {
-      "version": "1.0",
-      "size": 0,
+      "version": "1.1",
+      "size": 479276,
       "language": "ja",
       "character": "AIto",
       "service": "ELEVENLABS",
       "phrase_type": "no_speech"
     },
-    "ja/Riko/SBV2/error_phrase.wav": {
+    "ja/AIto/SBV2/error_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 408620,
       "language": "ja",
-      "character": "Riko",
+      "character": "AIto",
       "service": "SBV2",
       "phrase_type": "error"
     },
-    "ja/Riko/ELEVENLABS/error_phrase.wav": {
+    "ja/AIto/SBV2/no_speech_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 457840,
       "language": "ja",
-      "character": "Riko",
-      "service": "ELEVENLABS",
+      "character": "AIto",
+      "service": "SBV2",
+      "phrase_type": "no_speech"
+    },
+    "ja/AIto/VOICEVOX/error_phrase.wav": {
+      "version": "1.1",
+      "size": 258604,
+      "language": "ja",
+      "character": "AIto",
+      "service": "VOICEVOX",
       "phrase_type": "error"
     },
-    "ja/Haruki/SBV2/error_phrase.wav": {
+    "ja/AIto/VOICEVOX/no_speech_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 263212,
       "language": "ja",
-      "character": "Haruki",
-      "service": "SBV2",
-      "phrase_type": "error"
+      "character": "AIto",
+      "service": "VOICEVOX",
+      "phrase_type": "no_speech"
     },
     "ja/Haruki/ELEVENLABS/error_phrase.wav": {
       "version": "1.1",
-      "size": 0,
+      "size": 389420,
       "language": "ja",
       "character": "Haruki",
       "service": "ELEVENLABS",
       "phrase_type": "error"
     },
-    "de/Max/ELEVENLABS/error_phrase.wav": {
+    "ja/Haruki/ELEVENLABS/no_speech_phrase.wav": {
       "version": "1.1",
-      "size": 0,
-      "language": "de",
-      "character": "Max",
+      "size": 285740,
+      "language": "ja",
+      "character": "Haruki",
+      "service": "ELEVENLABS",
+      "phrase_type": "no_speech"
+    },
+    "ja/Haruki/SBV2/error_phrase.wav": {
+      "version": "1.1",
+      "size": 468080,
+      "language": "ja",
+      "character": "Haruki",
+      "service": "SBV2",
+      "phrase_type": "error"
+    },
+    "ja/Haruki/SBV2/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 403500,
+      "language": "ja",
+      "character": "Haruki",
+      "service": "SBV2",
+      "phrase_type": "no_speech"
+    },
+    "ja/Haruki/VOICEVOX/error_phrase.wav": {
+      "version": "1.1",
+      "size": 227372,
+      "language": "ja",
+      "character": "Haruki",
+      "service": "VOICEVOX",
+      "phrase_type": "error"
+    },
+    "ja/Haruki/VOICEVOX/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 189484,
+      "language": "ja",
+      "character": "Haruki",
+      "service": "VOICEVOX",
+      "phrase_type": "no_speech"
+    },
+    "ja/Riko/ELEVENLABS/error_phrase.wav": {
+      "version": "1.1",
+      "size": 405548,
+      "language": "ja",
+      "character": "Riko",
       "service": "ELEVENLABS",
       "phrase_type": "error"
     },
-    "manifest.json": {
-      "version": "1.0",
-      "description": ""
+    "ja/Riko/ELEVENLABS/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 306476,
+      "language": "ja",
+      "character": "Riko",
+      "service": "ELEVENLABS",
+      "phrase_type": "no_speech"
+    },
+    "ja/Riko/SBV2/error_phrase.wav": {
+      "version": "1.1",
+      "size": 444460,
+      "language": "ja",
+      "character": "Riko",
+      "service": "SBV2",
+      "phrase_type": "error"
+    },
+    "ja/Riko/SBV2/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 430124,
+      "language": "ja",
+      "character": "Riko",
+      "service": "SBV2",
+      "phrase_type": "no_speech"
+    },
+    "ja/Riko/VOICEVOX/error_phrase.wav": {
+      "version": "1.1",
+      "size": 234540,
+      "language": "ja",
+      "character": "Riko",
+      "service": "VOICEVOX",
+      "phrase_type": "error"
+    },
+    "ja/Riko/VOICEVOX/no_speech_phrase.wav": {
+      "version": "1.1",
+      "size": 228908,
+      "language": "ja",
+      "character": "Riko",
+      "service": "VOICEVOX",
+      "phrase_type": "no_speech"
     }
   },
-  "last_updated": "2025-12-24T11:05:35Z"
+  "last_sync": "2025-12-24T21:44:29.901085"
 }

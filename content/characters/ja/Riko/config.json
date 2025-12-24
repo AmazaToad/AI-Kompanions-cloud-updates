@@ -30,7 +30,10 @@
       "pitch_scale": 1,
       "intonation_scale": 1
     },
-    "VOICEVOX": {},
+    "VOICEVOX": {
+      "voice_name": "波音リツ",
+      "style_name": "ノーマル"
+    },
     "ELEVENLABS": {
       "voice_id": "FGY2WhTYpPnrIDTdsKH5",
       "voice_name": "Laura"
@@ -52,6 +55,11 @@
       "default": [
         "あれ？応答がうまくいかなかったみたい。もう一回やってみよっか。"
       ]
+    },
+    "no_speech": {
+      "default": [
+        "ん？ごめん、今の聞き取れなかった。もっかい言ってくれる？"
+      ]
     }
   },
   "assets": {
@@ -61,5 +69,4 @@
     "models_2d": "assets/models/2d/",
     "models_3d": "assets/models/3d/"
   }
-
 }
