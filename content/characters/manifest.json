@@ -1,24 +1,25 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "files": {
     "de/Max/config.json": {
-      "version": "1.0"
+      "version": "1.1"
     },
     "en/AIbro/config.json": {
-      "version": "1.0"
+      "version": "1.1"
     },
     "ja/AIko/config.json": {
-      "version": "1.0"
+      "version": "1.1"
     },
     "ja/AIto/config.json": {
-      "version": "1.0"
+      "version": "1.1"
     },
     "ja/Haruki/config.json": {
-      "version": "1.0"
+      "version": "1.1"
     },
     "ja/Riko/config.json": {
-      "version": "1.0"
+      "version": "1.1"
     }
   },
   "last_sync": "2025-12-21T17:23:17.929664"
+
 }
