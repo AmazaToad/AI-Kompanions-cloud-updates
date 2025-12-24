@@ -2,8 +2,15 @@
   "version": "1.1",
   "description": "Fixed phrase audio files for characters to avoid TTS service costs",
   "structure": {
-    "languages": ["en", "ja", "de"],
-    "phrase_types": ["error_phrase"]
+    "languages": [
+      "en",
+      "ja",
+      "de"
+    ],
+    "phrase_types": [
+      "error_phrase",
+      "no_speech_phrase"
+    ]
   },
   "files": {
     "en/AIbro/COQUI/error_phrase.wav": {
@@ -61,6 +68,14 @@
       "character": "AIto",
       "service": "ELEVENLABS",
       "phrase_type": "error"
+    },
+    "ja/AIto/ELEVENLABS/no_speech_phrase.wav": {
+      "version": "1.0",
+      "size": 0,
+      "language": "ja",
+      "character": "AIto",
+      "service": "ELEVENLABS",
+      "phrase_type": "no_speech"
     },
     "ja/Riko/SBV2/error_phrase.wav": {
       "version": "1.1",
