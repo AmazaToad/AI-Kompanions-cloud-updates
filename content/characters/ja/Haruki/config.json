@@ -50,7 +50,7 @@
   "fixed_phrases": {
     "error": {
       "default": [
-        "あれ？ちょっとズレちゃったみたい。もう一回トライしてみよっか！"
+        "あれ？ちょっと応答がズレちゃったみたい。もう一回トライしてみよっか！"
       ]
     }
   },
@@ -61,4 +61,5 @@
     "models_2d": "assets/models/2d/",
     "models_3d": "assets/models/3d/"
   }
+
 }
